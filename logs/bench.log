@@ -1,0 +1,717 @@
+2023-12-08 11:44:07,218 DEBUG cd frappe-bench && python3 -m venv env
+2023-12-08 11:44:09,080 DEBUG cd frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-12-08 11:44:10,302 DEBUG cd frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-12-08 11:44:11,508 LOG Getting frappe
+2023-12-08 11:44:11,508 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-12-08 11:44:31,168 LOG Installing frappe
+2023-12-08 11:44:31,168 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/frappe 
+2023-12-08 11:44:57,008 DEBUG cd /home/erpnext/frappe-bench/apps/frappe && yarn install
+2023-12-08 11:46:33,986 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe:
+2023-12-08 11:46:34,095 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-12-08 11:46:34,095 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-12-08 11:46:34,095 DEBUG cd frappe-bench && bench build
+2023-12-08 11:46:34,152 INFO /home/erpnext/.local/bin/bench build
+2023-12-08 11:46:44,785 LOG setting up backups
+2023-12-08 11:46:44,790 LOG backups were set up
+2023-12-08 11:46:44,790 INFO Bench frappe-bench initialized
+2023-12-08 11:49:29,728 INFO /home/erpnext/.local/bin/bench new-site yusf
+2023-12-08 11:52:29,767 INFO /home/erpnext/.local/bin/bench new-site yusf.example.com
+2023-12-08 11:52:56,332 INFO /home/erpnext/.local/bin/bench new-site yusf.example.com
+2023-12-08 11:53:25,026 INFO /home/erpnext/.local/bin/bench new-site youssef.example.com
+2023-12-08 11:54:21,347 INFO /home/erpnext/.local/bin/bench new-site youssef.example.com
+2023-12-08 11:54:28,182 INFO /home/erpnext/.local/bin/bench new-site youssf.example.com
+2023-12-08 11:54:54,304 INFO /home/erpnext/.local/bin/bench init --frappe-branch version-14 frappe-bench
+2023-12-08 11:54:54,330 DEBUG cd frappe-bench && python3 -m venv env
+2023-12-08 11:54:56,084 DEBUG cd frappe-bench && /home/erpnext/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-12-08 11:54:57,452 DEBUG cd frappe-bench && /home/erpnext/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-12-08 11:54:58,875 LOG Getting frappe
+2023-12-08 11:54:58,875 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-12-08 11:55:10,182 LOG Installing frappe
+2023-12-08 11:55:10,182 DEBUG cd /home/erpnext/frappe-bench/frappe-bench && /home/erpnext/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/frappe-bench/apps/frappe 
+2023-12-08 11:55:33,079 DEBUG cd /home/erpnext/frappe-bench/frappe-bench/apps/frappe && yarn install
+2023-12-08 11:55:36,907 DEBUG cd /home/erpnext/frappe-bench/frappe-bench && sudo supervisorctl restart frappe:
+2023-12-08 11:55:37,024 WARNING cd /home/erpnext/frappe-bench/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-12-08 11:55:37,024 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-12-08 11:55:37,024 DEBUG cd frappe-bench && bench build
+2023-12-08 11:55:47,727 LOG setting up backups
+2023-12-08 11:55:47,732 LOG backups were set up
+2023-12-08 11:55:47,732 INFO Bench frappe-bench initialized
+2023-12-08 11:57:46,008 INFO /home/erpnext/.local/bin/bench init --frappe-branch version-14 frappe-bench
+2023-12-08 11:57:46,011 ERROR Bench instance already exists at frappe-bench
+2023-12-08 11:58:16,667 INFO /home/erpnext/.local/bin/bench new-site local.example.com
+2023-12-08 12:00:01,629 INFO /home/erpnext/.local/bin/bench --verbose --site all backup
+2023-12-08 12:00:31,385 INFO /home/erpnext/.local/bin/bench new-site local.example.com
+2023-12-08 12:00:35,262 INFO /home/erpnext/.local/bin/bench new-site locals.example.com
+2023-12-08 12:02:14,010 INFO /home/erpnext/.local/bin/bench new-site localsf.example.com
+2023-12-08 12:05:44,298 INFO /home/erpnext/.local/bin/bench new-site localsfff.example.com
+2023-12-08 12:08:24,644 INFO /home/erpnext/.local/bin/bench new-site localsffff.example.com
+2023-12-08 12:09:29,607 INFO /home/erpnext/.local/bin/bench new-site localsffff.example.com
+2023-12-08 12:09:33,399 INFO /home/erpnext/.local/bin/bench new-site localsfffff.example.com
+2023-12-08 12:10:57,750 INFO /home/erpnext/.local/bin/bench new-site bench new-site youssef.example.com
+2023-12-08 12:11:11,628 INFO /home/erpnext/.local/bin/bench new-site bench youssef.example.com
+2023-12-08 12:11:34,104 INFO /home/erpnext/.local/bin/bench new-site youssef.example.com
+2023-12-08 12:12:36,548 INFO /home/erpnext/.local/bin/bench list-sites
+2023-12-08 12:12:44,722 INFO /home/erpnext/.local/bin/bench --help
+2023-12-08 12:12:58,929 INFO /home/erpnext/.local/bin/bench list-sites
+2023-12-08 12:13:12,470 INFO /home/erpnext/.local/bin/bench --site youssef.example.com --force drop-site
+2023-12-08 12:13:44,434 INFO /home/erpnext/.local/bin/bench new-site bench ybenamara.example.com
+2023-12-08 12:13:52,874 INFO /home/erpnext/.local/bin/bench new-site ybenamara.example.com
+2023-12-08 12:14:38,303 INFO /home/erpnext/.local/bin/bench new-site ybenamara.example.com
+2023-12-08 12:15:47,149 INFO /home/erpnext/.local/bin/bench --help
+2023-12-08 12:15:50,835 INFO /home/erpnext/.local/bin/bench --help remove
+2023-12-08 12:16:26,343 INFO /home/erpnext/.local/bin/bench drop-site youssef.example.com --yes
+2023-12-08 12:16:35,770 INFO /home/erpnext/.local/bin/bench drop-site youssef.example.com
+2023-12-08 12:16:45,058 INFO /home/erpnext/.local/bin/bench drop-site youssef.example.com --force
+2023-12-08 12:17:10,615 INFO /home/erpnext/.local/bin/bench drop-site ybenamara.example.com --force
+2023-12-08 12:17:27,246 INFO /home/erpnext/.local/bin/bench new-site ybenamara.example.com
+2023-12-08 12:18:31,438 INFO /home/erpnext/.local/bin/bench get-app --branch version-14 erpnext
+2023-12-08 12:18:31,949 LOG Getting erpnext
+2023-12-08 12:18:31,950 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-12-08 12:18:41,095 LOG Installing erpnext
+2023-12-08 12:18:41,156 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/erpnext 
+2023-12-08 12:19:06,862 DEBUG cd /home/erpnext/frappe-bench/apps/erpnext && yarn install
+2023-12-08 12:19:08,537 DEBUG bench build --app erpnext
+2023-12-08 12:19:08,594 INFO /home/erpnext/.local/bin/bench build --app erpnext
+2023-12-08 12:19:13,566 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe:
+2023-12-08 12:19:13,673 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-12-08 12:19:13,673 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-12-08 12:23:44,494 INFO /home/erpnext/.local/bin/bench setup supervisor
+2023-12-08 12:23:44,597 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-12-08 12:23:44,597 LOG Updated supervisord.conf: 'chown' changed from '' to 'erpnext:erpnext'
+2023-12-08 12:24:02,454 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:24:02,460 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:24:02,491 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:31:25,628 INFO /home/erpnext/.local/bin/bench get-app payments
+2023-12-08 12:31:26,096 LOG Getting payments
+2023-12-08 12:31:26,096 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2023-12-08 12:31:26,944 LOG Installing payments
+2023-12-08 12:31:27,033 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/payments 
+2023-12-08 12:31:30,418 DEBUG bench build --app payments
+2023-12-08 12:31:30,482 INFO /home/erpnext/.local/bin/bench build --app payments
+2023-12-08 12:31:31,806 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:31:33,432 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:31:33,434 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:31:33,434 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:31:38,168 INFO /home/erpnext/.local/bin/bench get-app hrms
+2023-12-08 12:31:38,586 LOG Getting hrms
+2023-12-08 12:31:38,586 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-12-08 12:31:43,330 LOG Installing hrms
+2023-12-08 12:31:43,415 DEBUG cd /home/erpnext/frappe-bench && /home/erpnext/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpnext/frappe-bench/apps/hrms 
+2023-12-08 12:31:45,020 DEBUG cd /home/erpnext/frappe-bench/apps/hrms && yarn install
+2023-12-08 12:32:25,220 DEBUG bench build --app hrms
+2023-12-08 12:32:25,278 INFO /home/erpnext/.local/bin/bench build --app hrms
+2023-12-08 12:32:33,719 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:32:36,259 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:32:36,259 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:32:36,260 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:34:29,032 INFO /home/erpnext/.local/bin/bench --site ybenamara.example.com install-app erpnext
+2023-12-08 12:35:25,788 INFO /home/erpnext/.local/bin/bench --site ybenamara.example.com install-app hrms
+2023-12-08 12:35:58,288 INFO /home/erpnext/.local/bin/bench --site ybenamara.example.com install-app payments
+2023-12-08 12:36:09,969 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:40:47,898 INFO /home/erpnext/.local/bin/bench stop
+2023-12-08 12:41:07,732 INFO /home/erpnext/.local/bin/bench --help
+2023-12-08 12:41:14,876 INFO /home/erpnext/.local/bin/bench --help
+2023-12-08 12:41:21,695 INFO /home/erpnext/.local/bin/bench --help
+2023-12-08 12:44:02,467 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:44:02,674 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:44:04,286 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:44:04,286 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:44:04,286 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:44:16,868 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:44:47,478 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:44:54,999 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:44:55,206 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:44:57,705 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:44:57,705 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:44:57,706 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:45:02,432 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:51:09,325 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:51:20,474 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:51:20,680 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:51:22,287 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:51:22,287 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:51:22,288 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:51:26,824 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:52:53,464 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:53:02,286 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:53:02,493 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:53:04,956 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:53:04,957 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:53:04,963 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:53:09,262 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:53:25,016 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:53:31,746 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:53:31,952 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:53:33,456 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:53:33,458 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:53:33,458 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:53:37,905 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:55:05,427 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:55:20,618 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:55:20,826 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:55:23,361 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:55:23,361 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:55:23,361 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 12:55:32,500 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 12:56:24,715 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 12:56:24,920 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 12:56:27,438 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 12:56:27,438 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 12:56:27,438 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:00:33,200 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:17:24,051 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:17:38,239 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:17:38,446 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:17:39,975 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:17:39,975 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:17:39,977 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:17:43,401 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:17:43,401 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:18:00,326 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:18:00,537 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:18:02,997 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:18:02,999 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:18:03,001 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:18:05,429 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:18:05,429 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:18:07,410 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:19:13,918 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:19:14,124 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:19:16,714 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:19:16,716 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:19:16,717 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:19:19,208 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:19:19,208 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:19:58,037 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:19:58,073 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:19:58,074 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:20:04,522 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:20:10,084 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:20:10,295 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:20:12,920 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:20:12,920 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:20:12,920 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:20:15,346 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:20:15,346 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:20:41,851 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:20:42,059 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:20:44,571 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:20:44,571 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:20:44,571 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:20:47,014 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:20:47,015 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:22:13,508 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:23:03,054 INFO /home/erpnext/.local/bin/bench --site ybenamara.example.com restart-redis-cache
+2023-12-08 13:23:16,405 INFO /home/erpnext/.local/bin/bench ybenamara.example.com restart-redis-cache
+2023-12-08 13:23:27,017 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:23:27,222 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:23:29,719 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:23:29,720 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:23:29,720 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:23:32,150 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:23:32,150 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:24:34,983 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:24:34,985 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:24:35,016 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:24:49,098 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:24:49,303 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:24:51,832 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:24:51,833 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:24:51,836 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:24:54,288 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:24:54,288 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:25:46,899 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:25:46,901 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:25:46,935 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:26:08,241 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:26:08,446 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:26:10,947 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:26:10,948 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:26:10,948 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:26:33,589 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:28:07,100 INFO /home/erpnext/.local/bin/bench --help
+2023-12-08 13:28:22,581 INFO /home/erpnext/.local/bin/bench clear-cache
+2023-12-08 13:28:37,426 INFO /home/erpnext/.local/bin/bench clear-cache --site ybenamara.example.com
+2023-12-08 13:28:49,035 INFO /home/erpnext/.local/bin/bench clear-cache ybenamara.example.com
+2023-12-08 13:29:13,133 INFO /home/erpnext/.local/bin/bench ybenamara.example.com clear-cache
+2023-12-08 13:29:19,992 INFO /home/erpnext/.local/bin/bench --site ybenamara.example.com clear-cache
+2023-12-08 13:29:29,284 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:29:37,062 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:29:37,271 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:29:39,745 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:29:39,748 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:29:39,748 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:29:41,720 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:29:41,720 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:29:49,225 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:29:49,613 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:29:51,820 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:29:52,026 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:29:54,495 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:29:54,495 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:29:54,495 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:30:06,733 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:30:17,282 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:31:20,860 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:32:03,978 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:32:04,184 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:32:06,743 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:32:06,743 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:32:06,745 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:32:11,818 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:35:01,943 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:35:02,149 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:35:04,559 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:35:04,559 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:35:04,559 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:35:08,827 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:35:08,969 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:35:08,976 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:35:09,004 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:35:09,007 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:36:13,519 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:36:13,724 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:36:16,273 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:36:16,273 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:36:16,273 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:36:20,536 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:36:20,678 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:36:20,679 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:36:20,680 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:36:20,713 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:36:57,615 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:36:57,788 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:36:57,791 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:36:57,792 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:36:57,795 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:37:50,673 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:37:50,878 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:37:53,327 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:37:53,329 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:37:53,331 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:38:00,772 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:38:00,978 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:38:03,502 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:38:03,504 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:38:03,504 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:38:10,125 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:38:10,265 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:38:10,267 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:38:10,276 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:38:10,293 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:38:21,749 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:38:21,892 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:38:21,921 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:38:21,925 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:38:21,926 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:38:37,160 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:38:37,364 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:38:39,717 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:38:39,718 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:38:39,718 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:38:49,496 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:38:49,637 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:38:49,650 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:38:49,653 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:38:49,663 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:40:09,038 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:40:09,215 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:40:09,215 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:40:09,218 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:40:09,218 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:40:37,948 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:40:38,158 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:40:40,673 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:40:40,676 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:40:40,676 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:41:09,144 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:41:09,288 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:41:09,288 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:41:09,291 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:41:09,320 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:42:51,074 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:42:51,281 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:42:52,884 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:42:52,884 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:42:52,885 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:07,187 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:43:07,393 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:43:08,871 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:43:08,873 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:43:08,874 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:19,478 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:19,479 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:43:19,516 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:43:22,127 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:43:28,993 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:30,008 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:43:39,412 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:40,433 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:43:49,832 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:50,854 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:43:51,920 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:43:52,126 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:43:54,542 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:43:54,543 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:43:54,543 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:43:56,549 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:43:56,549 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:44:04,008 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:44:05,026 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:44:10,254 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:44:10,462 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:44:12,878 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:44:12,880 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:44:12,880 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:44:14,858 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:44:14,858 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:44:19,174 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:44:22,353 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:44:23,362 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:44:32,774 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:44:33,793 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:44:43,195 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:44:44,215 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:44:50,187 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:44:50,394 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:44:52,810 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:44:52,810 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:44:52,811 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:44:54,837 WARNING cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-08 13:44:54,837 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:44:58,111 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:45:02,289 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:45:03,301 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:45:12,707 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:45:13,718 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:45:23,123 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:45:24,278 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:45:26,512 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:45:26,656 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:45:26,661 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:45:26,691 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:45:26,693 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:45:38,113 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:45:38,256 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:45:38,291 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:45:38,291 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:45:38,292 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:45:42,099 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:45:42,201 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe:
+2023-12-08 13:45:42,301 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2023-12-08 13:45:42,301 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:45:44,090 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:45:44,234 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:45:44,245 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:45:44,268 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:45:44,271 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:46:49,493 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:46:49,637 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:46:49,639 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:46:49,642 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:46:49,674 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:47:04,381 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:47:04,483 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe:
+2023-12-08 13:47:04,583 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2023-12-08 13:47:04,583 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:47:52,280 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:47:52,424 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:47:52,429 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:47:52,456 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:47:52,458 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:49:04,815 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:49:04,916 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe:
+2023-12-08 13:49:05,016 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2023-12-08 13:49:05,017 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:49:28,489 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:49:28,592 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe:
+2023-12-08 13:49:28,697 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2023-12-08 13:49:28,697 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:49:50,628 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:49:50,629 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:49:50,630 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:49:51,714 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:49:51,919 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:49:54,391 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:49:54,393 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:49:54,393 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:50:01,496 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:50:19,395 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:51:27,523 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:51:27,673 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:51:27,692 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:51:27,707 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:51:27,708 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:51:48,791 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:51:48,940 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:51:48,941 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:51:48,943 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:51:48,974 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:52:27,735 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:52:27,881 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:52:27,884 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:52:27,884 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:52:27,914 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:52:48,301 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:52:48,449 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:52:48,450 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:52:48,485 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:52:48,489 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:53:34,170 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:53:34,382 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-08 13:53:36,871 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:53:36,872 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:53:36,872 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:53:41,354 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:53:41,501 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:53:41,531 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:53:41,533 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:53:41,535 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:53:53,023 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:53:53,024 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:53:53,060 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:54:01,053 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:54:02,570 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:54:03,588 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:54:12,993 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:54:14,012 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:54:23,416 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:54:24,433 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:54:48,589 INFO /home/erpnext/.local/bin/bench restart
+2023-12-08 13:54:48,693 DEBUG cd /home/erpnext/frappe-bench && supervisorctl restart frappe:
+2023-12-08 13:54:48,795 WARNING cd /home/erpnext/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2023-12-08 13:54:48,795 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-08 13:54:52,592 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:54:52,739 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:54:52,740 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:54:52,741 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:54:52,770 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:55:13,765 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:55:13,765 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 13:55:13,803 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:55:20,063 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:55:23,325 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:55:24,339 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:55:33,769 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:55:34,782 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:55:44,205 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:55:45,226 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:55:46,276 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:55:54,646 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:55:55,674 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:56:05,076 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 13:56:06,109 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 13:56:09,549 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:56:09,715 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:56:09,736 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:56:09,738 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:56:09,742 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 13:58:50,795 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 13:58:50,975 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 13:58:50,975 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 13:58:50,976 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 13:58:50,977 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 15:28:59,437 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 15:28:59,593 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 15:28:59,603 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 15:28:59,622 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 15:28:59,623 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 15:36:36,627 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 15:36:36,802 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 15:36:36,803 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 15:36:36,806 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 15:36:36,809 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 16:01:18,263 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 16:01:18,408 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 16:01:18,410 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 16:01:18,441 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 16:01:18,445 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 16:40:43,161 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 16:40:43,316 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 16:40:43,317 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 16:40:43,318 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 16:40:43,337 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 16:47:45,008 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 16:47:45,173 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 16:47:45,174 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 16:47:45,201 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 16:47:45,204 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 16:53:24,236 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 16:53:24,382 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 16:53:24,383 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 16:53:24,385 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 16:53:24,416 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 16:53:51,060 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 16:59:36,794 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 17:24:54,113 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-08 17:27:49,493 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 17:27:49,646 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 17:27:49,670 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 17:27:49,675 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 17:27:49,676 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 17:27:59,700 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-08 17:28:00,106 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-08 19:51:59,801 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 19:52:00,002 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 19:52:00,008 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 19:52:00,008 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 19:52:00,008 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 21:39:23,779 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 21:39:23,955 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 21:39:23,968 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-08 21:39:23,975 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 21:39:23,999 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 21:39:56,234 INFO /home/erpnext/.local/bin/bench start
+2023-12-08 21:39:56,412 INFO /home/erpnext/.local/bin//bench watch
+2023-12-08 21:39:56,427 INFO /home/erpnext/.local/bin//bench serve --port 8000
+2023-12-08 21:39:56,459 INFO /home/erpnext/.local/bin//bench worker
+2023-12-08 21:39:56,459 INFO /home/erpnext/.local/bin//bench schedule
+2023-12-09 08:47:31,438 INFO /home/yusf/.local/bin/bench start
+2023-12-09 08:47:42,783 INFO /home/yusf/.local/bin/bench restart
+2023-12-09 08:47:43,011 DEBUG cd /home/erpnext/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-09 08:47:43,169 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 08:47:43,169 INFO /home/erpnext/.local/bin/bench worker --queue short,default
+2023-12-09 08:47:43,169 INFO /home/erpnext/.local/bin/bench worker --queue long,default,short
+2023-12-09 08:47:48,808 INFO /home/yusf/.local/bin/bench start
+2023-12-09 08:48:24,598 INFO /home/yusf/.local/bin/bench start
+2023-12-09 08:48:24,742 INFO /home/yusf/.local/bin/bench worker
+2023-12-09 08:48:24,767 INFO /home/yusf/.local/bin/bench schedule
+2023-12-09 08:48:24,774 INFO /home/yusf/.local/bin/bench watch
+2023-12-09 08:48:24,776 INFO /home/yusf/.local/bin/bench serve --port 8000
+2023-12-09 08:51:07,268 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 08:51:07,423 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 08:51:07,427 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 08:51:07,456 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 08:51:07,457 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 09:21:15,841 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 09:21:16,018 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 09:21:16,019 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 09:21:16,020 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 09:21:16,026 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 09:23:03,897 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 09:23:04,046 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 09:23:04,048 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 09:23:04,066 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 09:23:04,078 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 09:58:32,472 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 09:58:32,614 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 09:58:32,649 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 09:58:32,649 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 09:58:32,652 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 10:27:09,383 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:27:27,258 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:32:36,474 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:33:29,354 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:33:29,495 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 10:33:29,497 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 10:33:29,498 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 10:33:29,533 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 10:41:12,354 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:42:18,780 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:42:44,068 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:43:39,684 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:44:20,347 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:44:34,307 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:50:50,388 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:52:18,700 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:52:18,863 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 10:52:18,870 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 10:52:43,788 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:52:43,932 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 10:52:43,964 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 10:52:43,964 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 10:52:43,969 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 10:56:05,213 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:56:05,359 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 10:56:05,359 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 10:56:05,394 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 10:56:05,400 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 10:56:13,986 INFO /home/erpnext/.local/bin/bench restart
+2023-12-09 10:56:22,283 DEBUG cd /home/erpnext/ITESLab-ERP_Next && sudo supervisorctl restart frappe:
+2023-12-09 10:56:22,388 WARNING cd /home/erpnext/ITESLab-ERP_Next && sudo supervisorctl restart frappe: executed with exit code 2
+2023-12-09 10:56:22,388 WARNING /home/erpnext/.local/bin/bench restart executed with exit code 1
+2023-12-09 10:56:27,607 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:56:27,751 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 10:56:27,753 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 10:56:27,783 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 10:56:27,786 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 10:57:15,247 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 10:57:15,390 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 10:57:15,407 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 10:57:15,409 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 10:57:15,424 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:00:04,512 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:00:04,654 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:00:04,674 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:00:04,692 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:00:04,693 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:05:56,492 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:05:56,636 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:05:56,655 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:05:56,673 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:05:56,673 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:08:13,898 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:08:14,054 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:08:14,058 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:08:14,075 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:08:14,077 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:16:48,001 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:16:48,146 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:16:48,147 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:16:48,149 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:16:48,176 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:18:06,856 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:18:06,997 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:18:06,998 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:18:06,998 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:18:07,033 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:18:16,485 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:18:16,630 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:18:16,647 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:18:16,649 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:18:16,663 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:18:43,923 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:18:44,069 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:18:44,069 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:18:44,103 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:18:44,105 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:19:20,054 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:19:20,207 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:19:20,244 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:19:20,245 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:19:20,245 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:32:52,932 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:32:53,080 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:32:53,107 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:32:53,113 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:32:53,116 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:33:29,060 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:33:29,208 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:33:29,211 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:33:29,243 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:33:29,248 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:35:34,410 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:35:34,582 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:35:34,607 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 11:35:34,610 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:35:34,610 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:47:18,321 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 11:47:18,464 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 11:47:18,464 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 11:47:18,498 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 11:47:18,502 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 12:02:16,800 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 12:02:16,945 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 12:02:16,945 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 12:02:16,978 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 12:02:16,981 INFO /home/erpnext/.local/bin/bench worker
+2023-12-09 12:16:37,792 INFO /home/erpnext/.local/bin/bench start
+2023-12-09 12:16:37,943 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-09 12:16:37,972 INFO /home/erpnext/.local/bin/bench schedule
+2023-12-09 12:16:37,976 INFO /home/erpnext/.local/bin/bench watch
+2023-12-09 12:16:37,976 INFO /home/erpnext/.local/bin/bench worker
+2023-12-10 09:44:16,128 INFO /home/erpnext/.local/bin/bench start
+2023-12-10 09:44:16,276 INFO /home/erpnext/.local/bin/bench worker
+2023-12-10 09:44:16,280 INFO /home/erpnext/.local/bin/bench watch
+2023-12-10 09:44:16,280 INFO /home/erpnext/.local/bin/bench serve --port 8000
+2023-12-10 09:44:16,302 INFO /home/erpnext/.local/bin/bench schedule

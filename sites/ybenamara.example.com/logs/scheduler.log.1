@@ -1,0 +1,1728 @@
+2023-12-08 15:41:34,537 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1198, in get_connection
+    if connection.can_read():
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1202, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:42:34,755 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:43:34,973 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:44:35,208 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:45:35,376 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:46:35,576 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:47:35,796 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:48:36,012 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:49:36,161 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:50:36,378 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:51:36,598 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:52:36,752 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:53:36,936 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:54:37,029 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:55:37,224 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:56:37,447 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:57:37,690 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:58:37,908 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 15:59:38,168 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:00:38,337 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:01:38,470 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:02:38,639 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:03:38,815 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:04:39,038 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:05:39,313 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:06:39,406 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:07:39,650 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:08:39,843 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:09:40,123 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:10:40,288 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:11:40,553 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:12:40,712 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:13:40,935 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:14:41,173 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:15:41,353 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:16:41,481 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:17:41,622 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:18:41,817 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:19:41,985 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:20:42,162 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:21:42,413 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:22:42,621 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:23:42,785 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:24:43,024 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:25:43,247 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:26:43,365 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:27:43,478 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:28:43,684 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+
+2023-12-08 16:29:43,822 ERROR scheduler Exception in Enqueue Events for Site ybenamara.example.com
+Traceback (most recent call last):
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 78, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 96, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 305, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 218, in jobs
+    return self.get_jobs()
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 207, in get_jobs
+    job_ids = self.get_job_ids(offset, length)
+  File "env/lib/python3.10/site-packages/rq/queue.py", line 203, in get_job_ids
+    self.connection.lrange(self.key, start, end)]
+  File "env/lib/python3.10/site-packages/redis/client.py", line 1975, in lrange
+    return self.execute_command('LRANGE', name, start, end)
+  File "env/lib/python3.10/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+

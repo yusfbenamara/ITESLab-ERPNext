@@ -1,0 +1,6 @@
+2023-12-08 12:16:50,594 WARNING database DDL Query made to DB:
+DROP DATABASE IF EXISTS `_5a67d42ac6edd7da`
+2023-12-08 12:16:50,594 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_5a67d42ac6edd7da'@'%'
+2023-12-08 12:16:50,594 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_5a67d42ac6edd7da'@'localhost'

@@ -1,0 +1,1659 @@
+[2023-12-08 12:24:02 +0100] [74321] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:24:02 +0100] [74321] [INFO] Listening at: http://127.0.0.1:8000 (74321)
+[2023-12-08 12:24:02 +0100] [74321] [INFO] Using worker: sync
+[2023-12-08 12:24:02 +0100] [74353] [INFO] Booting worker with pid: 74353
+[2023-12-08 12:24:02 +0100] [74354] [INFO] Booting worker with pid: 74354
+[2023-12-08 12:24:02 +0100] [74357] [INFO] Booting worker with pid: 74357
+[2023-12-08 12:24:02 +0100] [74358] [INFO] Booting worker with pid: 74358
+[2023-12-08 12:24:02 +0100] [74359] [INFO] Booting worker with pid: 74359
+[2023-12-08 12:24:03 +0100] [74360] [INFO] Booting worker with pid: 74360
+[2023-12-08 12:24:03 +0100] [74361] [INFO] Booting worker with pid: 74361
+[2023-12-08 12:24:03 +0100] [74362] [INFO] Booting worker with pid: 74362
+[2023-12-08 12:24:03 +0100] [74363] [INFO] Booting worker with pid: 74363
+[2023-12-08 12:24:03 +0100] [74364] [INFO] Booting worker with pid: 74364
+[2023-12-08 12:24:03 +0100] [74365] [INFO] Booting worker with pid: 74365
+[2023-12-08 12:24:03 +0100] [74366] [INFO] Booting worker with pid: 74366
+[2023-12-08 12:24:03 +0100] [74367] [INFO] Booting worker with pid: 74367
+[2023-12-08 12:24:03 +0100] [74368] [INFO] Booting worker with pid: 74368
+[2023-12-08 12:24:03 +0100] [74369] [INFO] Booting worker with pid: 74369
+[2023-12-08 12:24:03 +0100] [74370] [INFO] Booting worker with pid: 74370
+[2023-12-08 12:24:03 +0100] [74371] [INFO] Booting worker with pid: 74371
+[2023-12-08 12:31:32 +0100] [74321] [INFO] Handling signal: term
+[2023-12-08 12:31:32 +0100] [74358] [INFO] Worker exiting (pid: 74358)
+[2023-12-08 12:31:32 +0100] [74357] [INFO] Worker exiting (pid: 74357)
+[2023-12-08 12:31:32 +0100] [74353] [INFO] Worker exiting (pid: 74353)
+[2023-12-08 12:31:32 +0100] [74354] [INFO] Worker exiting (pid: 74354)
+[2023-12-08 12:31:32 +0100] [74360] [INFO] Worker exiting (pid: 74360)
+[2023-12-08 12:31:32 +0100] [74359] [INFO] Worker exiting (pid: 74359)
+[2023-12-08 12:31:32 +0100] [74361] [INFO] Worker exiting (pid: 74361)
+[2023-12-08 12:31:32 +0100] [74363] [INFO] Worker exiting (pid: 74363)
+[2023-12-08 12:31:32 +0100] [74364] [INFO] Worker exiting (pid: 74364)
+[2023-12-08 12:31:32 +0100] [74362] [INFO] Worker exiting (pid: 74362)
+[2023-12-08 12:31:32 +0100] [74365] [INFO] Worker exiting (pid: 74365)
+[2023-12-08 12:31:32 +0100] [74366] [INFO] Worker exiting (pid: 74366)
+[2023-12-08 12:31:32 +0100] [74367] [INFO] Worker exiting (pid: 74367)
+[2023-12-08 12:31:32 +0100] [74370] [INFO] Worker exiting (pid: 74370)
+[2023-12-08 12:31:32 +0100] [74368] [INFO] Worker exiting (pid: 74368)
+[2023-12-08 12:31:32 +0100] [74369] [INFO] Worker exiting (pid: 74369)
+[2023-12-08 12:31:32 +0100] [74371] [INFO] Worker exiting (pid: 74371)
+[2023-12-08 12:31:32 +0100] [74321] [INFO] Shutting down: Master
+[2023-12-08 12:31:35 +0100] [74641] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:31:35 +0100] [74641] [INFO] Listening at: http://127.0.0.1:8000 (74641)
+[2023-12-08 12:31:35 +0100] [74641] [INFO] Using worker: sync
+[2023-12-08 12:31:35 +0100] [74649] [INFO] Booting worker with pid: 74649
+[2023-12-08 12:31:35 +0100] [74650] [INFO] Booting worker with pid: 74650
+[2023-12-08 12:31:35 +0100] [74651] [INFO] Booting worker with pid: 74651
+[2023-12-08 12:31:35 +0100] [74652] [INFO] Booting worker with pid: 74652
+[2023-12-08 12:31:35 +0100] [74653] [INFO] Booting worker with pid: 74653
+[2023-12-08 12:31:35 +0100] [74654] [INFO] Booting worker with pid: 74654
+[2023-12-08 12:31:35 +0100] [74655] [INFO] Booting worker with pid: 74655
+[2023-12-08 12:31:35 +0100] [74656] [INFO] Booting worker with pid: 74656
+[2023-12-08 12:31:35 +0100] [74657] [INFO] Booting worker with pid: 74657
+[2023-12-08 12:31:35 +0100] [74658] [INFO] Booting worker with pid: 74658
+[2023-12-08 12:31:35 +0100] [74659] [INFO] Booting worker with pid: 74659
+[2023-12-08 12:31:35 +0100] [74660] [INFO] Booting worker with pid: 74660
+[2023-12-08 12:31:35 +0100] [74661] [INFO] Booting worker with pid: 74661
+[2023-12-08 12:31:35 +0100] [74662] [INFO] Booting worker with pid: 74662
+[2023-12-08 12:31:35 +0100] [74663] [INFO] Booting worker with pid: 74663
+[2023-12-08 12:31:35 +0100] [74664] [INFO] Booting worker with pid: 74664
+[2023-12-08 12:31:35 +0100] [74665] [INFO] Booting worker with pid: 74665
+[2023-12-08 12:32:34 +0100] [74641] [INFO] Handling signal: term
+[2023-12-08 12:32:34 +0100] [74649] [INFO] Worker exiting (pid: 74649)
+[2023-12-08 12:32:34 +0100] [74650] [INFO] Worker exiting (pid: 74650)
+[2023-12-08 12:32:34 +0100] [74653] [INFO] Worker exiting (pid: 74653)
+[2023-12-08 12:32:34 +0100] [74651] [INFO] Worker exiting (pid: 74651)
+[2023-12-08 12:32:34 +0100] [74655] [INFO] Worker exiting (pid: 74655)
+[2023-12-08 12:32:34 +0100] [74654] [INFO] Worker exiting (pid: 74654)
+[2023-12-08 12:32:34 +0100] [74652] [INFO] Worker exiting (pid: 74652)
+[2023-12-08 12:32:34 +0100] [74656] [INFO] Worker exiting (pid: 74656)
+[2023-12-08 12:32:34 +0100] [74658] [INFO] Worker exiting (pid: 74658)
+[2023-12-08 12:32:34 +0100] [74657] [INFO] Worker exiting (pid: 74657)
+[2023-12-08 12:32:34 +0100] [74660] [INFO] Worker exiting (pid: 74660)
+[2023-12-08 12:32:34 +0100] [74664] [INFO] Worker exiting (pid: 74664)
+[2023-12-08 12:32:34 +0100] [74659] [INFO] Worker exiting (pid: 74659)
+[2023-12-08 12:32:34 +0100] [74662] [INFO] Worker exiting (pid: 74662)
+[2023-12-08 12:32:34 +0100] [74661] [INFO] Worker exiting (pid: 74661)
+[2023-12-08 12:32:34 +0100] [74663] [INFO] Worker exiting (pid: 74663)
+[2023-12-08 12:32:34 +0100] [74665] [INFO] Worker exiting (pid: 74665)
+[2023-12-08 12:32:35 +0100] [74641] [INFO] Shutting down: Master
+[2023-12-08 12:32:37 +0100] [74943] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:32:37 +0100] [74943] [INFO] Listening at: http://127.0.0.1:8000 (74943)
+[2023-12-08 12:32:37 +0100] [74943] [INFO] Using worker: sync
+[2023-12-08 12:32:37 +0100] [74951] [INFO] Booting worker with pid: 74951
+[2023-12-08 12:32:38 +0100] [74952] [INFO] Booting worker with pid: 74952
+[2023-12-08 12:32:38 +0100] [74953] [INFO] Booting worker with pid: 74953
+[2023-12-08 12:32:38 +0100] [74954] [INFO] Booting worker with pid: 74954
+[2023-12-08 12:32:38 +0100] [74955] [INFO] Booting worker with pid: 74955
+[2023-12-08 12:32:38 +0100] [74956] [INFO] Booting worker with pid: 74956
+[2023-12-08 12:32:38 +0100] [74957] [INFO] Booting worker with pid: 74957
+[2023-12-08 12:32:38 +0100] [74958] [INFO] Booting worker with pid: 74958
+[2023-12-08 12:32:38 +0100] [74959] [INFO] Booting worker with pid: 74959
+[2023-12-08 12:32:38 +0100] [74960] [INFO] Booting worker with pid: 74960
+[2023-12-08 12:32:38 +0100] [74961] [INFO] Booting worker with pid: 74961
+[2023-12-08 12:32:38 +0100] [74962] [INFO] Booting worker with pid: 74962
+[2023-12-08 12:32:38 +0100] [74963] [INFO] Booting worker with pid: 74963
+[2023-12-08 12:32:38 +0100] [74964] [INFO] Booting worker with pid: 74964
+[2023-12-08 12:32:38 +0100] [74965] [INFO] Booting worker with pid: 74965
+[2023-12-08 12:32:38 +0100] [74966] [INFO] Booting worker with pid: 74966
+[2023-12-08 12:32:39 +0100] [74967] [INFO] Booting worker with pid: 74967
+[2023-12-08 12:44:02 +0100] [74943] [INFO] Handling signal: term
+[2023-12-08 12:44:02 +0100] [74957] [INFO] Worker exiting (pid: 74957)
+[2023-12-08 12:44:02 +0100] [74953] [INFO] Worker exiting (pid: 74953)
+[2023-12-08 12:44:02 +0100] [74956] [INFO] Worker exiting (pid: 74956)
+[2023-12-08 12:44:02 +0100] [74955] [INFO] Worker exiting (pid: 74955)
+[2023-12-08 12:44:02 +0100] [74951] [INFO] Worker exiting (pid: 74951)
+[2023-12-08 12:44:02 +0100] [74954] [INFO] Worker exiting (pid: 74954)
+[2023-12-08 12:44:02 +0100] [74952] [INFO] Worker exiting (pid: 74952)
+[2023-12-08 12:44:02 +0100] [74960] [INFO] Worker exiting (pid: 74960)
+[2023-12-08 12:44:02 +0100] [74962] [INFO] Worker exiting (pid: 74962)
+[2023-12-08 12:44:02 +0100] [74958] [INFO] Worker exiting (pid: 74958)
+[2023-12-08 12:44:02 +0100] [74961] [INFO] Worker exiting (pid: 74961)
+[2023-12-08 12:44:02 +0100] [74959] [INFO] Worker exiting (pid: 74959)
+[2023-12-08 12:44:02 +0100] [74967] [INFO] Worker exiting (pid: 74967)
+[2023-12-08 12:44:02 +0100] [74963] [INFO] Worker exiting (pid: 74963)
+[2023-12-08 12:44:02 +0100] [74964] [INFO] Worker exiting (pid: 74964)
+[2023-12-08 12:44:02 +0100] [74965] [INFO] Worker exiting (pid: 74965)
+[2023-12-08 12:44:02 +0100] [74966] [INFO] Worker exiting (pid: 74966)
+[2023-12-08 12:44:03 +0100] [74943] [INFO] Shutting down: Master
+[2023-12-08 12:44:05 +0100] [75638] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:44:05 +0100] [75638] [INFO] Listening at: http://127.0.0.1:8000 (75638)
+[2023-12-08 12:44:05 +0100] [75638] [INFO] Using worker: sync
+[2023-12-08 12:44:05 +0100] [75646] [INFO] Booting worker with pid: 75646
+[2023-12-08 12:44:06 +0100] [75647] [INFO] Booting worker with pid: 75647
+[2023-12-08 12:44:06 +0100] [75648] [INFO] Booting worker with pid: 75648
+[2023-12-08 12:44:06 +0100] [75649] [INFO] Booting worker with pid: 75649
+[2023-12-08 12:44:06 +0100] [75650] [INFO] Booting worker with pid: 75650
+[2023-12-08 12:44:06 +0100] [75651] [INFO] Booting worker with pid: 75651
+[2023-12-08 12:44:06 +0100] [75652] [INFO] Booting worker with pid: 75652
+[2023-12-08 12:44:06 +0100] [75653] [INFO] Booting worker with pid: 75653
+[2023-12-08 12:44:06 +0100] [75654] [INFO] Booting worker with pid: 75654
+[2023-12-08 12:44:06 +0100] [75655] [INFO] Booting worker with pid: 75655
+[2023-12-08 12:44:06 +0100] [75656] [INFO] Booting worker with pid: 75656
+[2023-12-08 12:44:06 +0100] [75657] [INFO] Booting worker with pid: 75657
+[2023-12-08 12:44:06 +0100] [75658] [INFO] Booting worker with pid: 75658
+[2023-12-08 12:44:06 +0100] [75659] [INFO] Booting worker with pid: 75659
+[2023-12-08 12:44:06 +0100] [75660] [INFO] Booting worker with pid: 75660
+[2023-12-08 12:44:06 +0100] [75661] [INFO] Booting worker with pid: 75661
+[2023-12-08 12:44:06 +0100] [75662] [INFO] Booting worker with pid: 75662
+[2023-12-08 12:44:56 +0100] [75638] [INFO] Handling signal: term
+[2023-12-08 12:44:56 +0100] [75646] [INFO] Worker exiting (pid: 75646)
+[2023-12-08 12:44:56 +0100] [75652] [INFO] Worker exiting (pid: 75652)
+[2023-12-08 12:44:56 +0100] [75647] [INFO] Worker exiting (pid: 75647)
+[2023-12-08 12:44:56 +0100] [75648] [INFO] Worker exiting (pid: 75648)
+[2023-12-08 12:44:56 +0100] [75651] [INFO] Worker exiting (pid: 75651)
+[2023-12-08 12:44:56 +0100] [75649] [INFO] Worker exiting (pid: 75649)
+[2023-12-08 12:44:56 +0100] [75650] [INFO] Worker exiting (pid: 75650)
+[2023-12-08 12:44:56 +0100] [75653] [INFO] Worker exiting (pid: 75653)
+[2023-12-08 12:44:56 +0100] [75661] [INFO] Worker exiting (pid: 75661)
+[2023-12-08 12:44:56 +0100] [75658] [INFO] Worker exiting (pid: 75658)
+[2023-12-08 12:44:56 +0100] [75657] [INFO] Worker exiting (pid: 75657)
+[2023-12-08 12:44:56 +0100] [75655] [INFO] Worker exiting (pid: 75655)
+[2023-12-08 12:44:56 +0100] [75656] [INFO] Worker exiting (pid: 75656)
+[2023-12-08 12:44:56 +0100] [75654] [INFO] Worker exiting (pid: 75654)
+[2023-12-08 12:44:56 +0100] [75659] [INFO] Worker exiting (pid: 75659)
+[2023-12-08 12:44:56 +0100] [75660] [INFO] Worker exiting (pid: 75660)
+[2023-12-08 12:44:56 +0100] [75662] [INFO] Worker exiting (pid: 75662)
+[2023-12-08 12:44:56 +0100] [75638] [INFO] Shutting down: Master
+[2023-12-08 12:44:59 +0100] [75755] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:44:59 +0100] [75755] [INFO] Listening at: http://127.0.0.1:8000 (75755)
+[2023-12-08 12:44:59 +0100] [75755] [INFO] Using worker: sync
+[2023-12-08 12:44:59 +0100] [75763] [INFO] Booting worker with pid: 75763
+[2023-12-08 12:44:59 +0100] [75764] [INFO] Booting worker with pid: 75764
+[2023-12-08 12:44:59 +0100] [75765] [INFO] Booting worker with pid: 75765
+[2023-12-08 12:44:59 +0100] [75766] [INFO] Booting worker with pid: 75766
+[2023-12-08 12:44:59 +0100] [75767] [INFO] Booting worker with pid: 75767
+[2023-12-08 12:44:59 +0100] [75768] [INFO] Booting worker with pid: 75768
+[2023-12-08 12:44:59 +0100] [75769] [INFO] Booting worker with pid: 75769
+[2023-12-08 12:44:59 +0100] [75770] [INFO] Booting worker with pid: 75770
+[2023-12-08 12:44:59 +0100] [75771] [INFO] Booting worker with pid: 75771
+[2023-12-08 12:44:59 +0100] [75773] [INFO] Booting worker with pid: 75773
+[2023-12-08 12:44:59 +0100] [75774] [INFO] Booting worker with pid: 75774
+[2023-12-08 12:45:00 +0100] [75775] [INFO] Booting worker with pid: 75775
+[2023-12-08 12:45:00 +0100] [75776] [INFO] Booting worker with pid: 75776
+[2023-12-08 12:45:00 +0100] [75777] [INFO] Booting worker with pid: 75777
+[2023-12-08 12:45:00 +0100] [75778] [INFO] Booting worker with pid: 75778
+[2023-12-08 12:45:00 +0100] [75779] [INFO] Booting worker with pid: 75779
+[2023-12-08 12:45:00 +0100] [75780] [INFO] Booting worker with pid: 75780
+[2023-12-08 12:51:20 +0100] [75755] [INFO] Handling signal: term
+[2023-12-08 12:51:20 +0100] [75767] [INFO] Worker exiting (pid: 75767)
+[2023-12-08 12:51:20 +0100] [75769] [INFO] Worker exiting (pid: 75769)
+[2023-12-08 12:51:20 +0100] [75763] [INFO] Worker exiting (pid: 75763)
+[2023-12-08 12:51:20 +0100] [75764] [INFO] Worker exiting (pid: 75764)
+[2023-12-08 12:51:20 +0100] [75768] [INFO] Worker exiting (pid: 75768)
+[2023-12-08 12:51:20 +0100] [75766] [INFO] Worker exiting (pid: 75766)
+[2023-12-08 12:51:20 +0100] [75765] [INFO] Worker exiting (pid: 75765)
+[2023-12-08 12:51:20 +0100] [75776] [INFO] Worker exiting (pid: 75776)
+[2023-12-08 12:51:20 +0100] [75770] [INFO] Worker exiting (pid: 75770)
+[2023-12-08 12:51:20 +0100] [75773] [INFO] Worker exiting (pid: 75773)
+[2023-12-08 12:51:20 +0100] [75780] [INFO] Worker exiting (pid: 75780)
+[2023-12-08 12:51:20 +0100] [75771] [INFO] Worker exiting (pid: 75771)
+[2023-12-08 12:51:20 +0100] [75779] [INFO] Worker exiting (pid: 75779)
+[2023-12-08 12:51:20 +0100] [75774] [INFO] Worker exiting (pid: 75774)
+[2023-12-08 12:51:20 +0100] [75775] [INFO] Worker exiting (pid: 75775)
+[2023-12-08 12:51:20 +0100] [75778] [INFO] Worker exiting (pid: 75778)
+[2023-12-08 12:51:20 +0100] [75777] [INFO] Worker exiting (pid: 75777)
+[2023-12-08 12:51:21 +0100] [75755] [INFO] Shutting down: Master
+[2023-12-08 12:51:23 +0100] [76088] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:51:23 +0100] [76088] [INFO] Listening at: http://127.0.0.1:8000 (76088)
+[2023-12-08 12:51:23 +0100] [76088] [INFO] Using worker: sync
+[2023-12-08 12:51:23 +0100] [76096] [INFO] Booting worker with pid: 76096
+[2023-12-08 12:51:24 +0100] [76097] [INFO] Booting worker with pid: 76097
+[2023-12-08 12:51:24 +0100] [76098] [INFO] Booting worker with pid: 76098
+[2023-12-08 12:51:24 +0100] [76099] [INFO] Booting worker with pid: 76099
+[2023-12-08 12:51:24 +0100] [76100] [INFO] Booting worker with pid: 76100
+[2023-12-08 12:51:24 +0100] [76101] [INFO] Booting worker with pid: 76101
+[2023-12-08 12:51:24 +0100] [76102] [INFO] Booting worker with pid: 76102
+[2023-12-08 12:51:24 +0100] [76103] [INFO] Booting worker with pid: 76103
+[2023-12-08 12:51:24 +0100] [76104] [INFO] Booting worker with pid: 76104
+[2023-12-08 12:51:24 +0100] [76105] [INFO] Booting worker with pid: 76105
+[2023-12-08 12:51:24 +0100] [76106] [INFO] Booting worker with pid: 76106
+[2023-12-08 12:51:24 +0100] [76107] [INFO] Booting worker with pid: 76107
+[2023-12-08 12:51:24 +0100] [76108] [INFO] Booting worker with pid: 76108
+[2023-12-08 12:51:24 +0100] [76109] [INFO] Booting worker with pid: 76109
+[2023-12-08 12:51:24 +0100] [76110] [INFO] Booting worker with pid: 76110
+[2023-12-08 12:51:24 +0100] [76112] [INFO] Booting worker with pid: 76112
+[2023-12-08 12:51:24 +0100] [76113] [INFO] Booting worker with pid: 76113
+[2023-12-08 12:53:03 +0100] [76088] [INFO] Handling signal: term
+[2023-12-08 12:53:03 +0100] [76104] [INFO] Worker exiting (pid: 76104)
+[2023-12-08 12:53:03 +0100] [76101] [INFO] Worker exiting (pid: 76101)
+[2023-12-08 12:53:03 +0100] [76096] [INFO] Worker exiting (pid: 76096)
+[2023-12-08 12:53:03 +0100] [76097] [INFO] Worker exiting (pid: 76097)
+[2023-12-08 12:53:03 +0100] [76100] [INFO] Worker exiting (pid: 76100)
+[2023-12-08 12:53:03 +0100] [76098] [INFO] Worker exiting (pid: 76098)
+[2023-12-08 12:53:03 +0100] [76099] [INFO] Worker exiting (pid: 76099)
+[2023-12-08 12:53:03 +0100] [76103] [INFO] Worker exiting (pid: 76103)
+[2023-12-08 12:53:03 +0100] [76102] [INFO] Worker exiting (pid: 76102)
+[2023-12-08 12:53:03 +0100] [76105] [INFO] Worker exiting (pid: 76105)
+[2023-12-08 12:53:03 +0100] [76106] [INFO] Worker exiting (pid: 76106)
+[2023-12-08 12:53:03 +0100] [76107] [INFO] Worker exiting (pid: 76107)
+[2023-12-08 12:53:03 +0100] [76108] [INFO] Worker exiting (pid: 76108)
+[2023-12-08 12:53:03 +0100] [76109] [INFO] Worker exiting (pid: 76109)
+[2023-12-08 12:53:03 +0100] [76110] [INFO] Worker exiting (pid: 76110)
+[2023-12-08 12:53:03 +0100] [76112] [INFO] Worker exiting (pid: 76112)
+[2023-12-08 12:53:03 +0100] [76113] [INFO] Worker exiting (pid: 76113)
+[2023-12-08 12:53:03 +0100] [76088] [INFO] Shutting down: Master
+[2023-12-08 12:53:06 +0100] [76270] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:53:06 +0100] [76270] [INFO] Listening at: http://127.0.0.1:8000 (76270)
+[2023-12-08 12:53:06 +0100] [76270] [INFO] Using worker: sync
+[2023-12-08 12:53:06 +0100] [76278] [INFO] Booting worker with pid: 76278
+[2023-12-08 12:53:06 +0100] [76279] [INFO] Booting worker with pid: 76279
+[2023-12-08 12:53:06 +0100] [76280] [INFO] Booting worker with pid: 76280
+[2023-12-08 12:53:06 +0100] [76281] [INFO] Booting worker with pid: 76281
+[2023-12-08 12:53:06 +0100] [76282] [INFO] Booting worker with pid: 76282
+[2023-12-08 12:53:07 +0100] [76283] [INFO] Booting worker with pid: 76283
+[2023-12-08 12:53:07 +0100] [76284] [INFO] Booting worker with pid: 76284
+[2023-12-08 12:53:07 +0100] [76285] [INFO] Booting worker with pid: 76285
+[2023-12-08 12:53:07 +0100] [76286] [INFO] Booting worker with pid: 76286
+[2023-12-08 12:53:07 +0100] [76287] [INFO] Booting worker with pid: 76287
+[2023-12-08 12:53:07 +0100] [76288] [INFO] Booting worker with pid: 76288
+[2023-12-08 12:53:07 +0100] [76289] [INFO] Booting worker with pid: 76289
+[2023-12-08 12:53:07 +0100] [76290] [INFO] Booting worker with pid: 76290
+[2023-12-08 12:53:07 +0100] [76291] [INFO] Booting worker with pid: 76291
+[2023-12-08 12:53:07 +0100] [76292] [INFO] Booting worker with pid: 76292
+[2023-12-08 12:53:07 +0100] [76293] [INFO] Booting worker with pid: 76293
+[2023-12-08 12:53:07 +0100] [76294] [INFO] Booting worker with pid: 76294
+[2023-12-08 12:53:32 +0100] [76270] [INFO] Handling signal: term
+[2023-12-08 12:53:32 +0100] [76280] [INFO] Worker exiting (pid: 76280)
+[2023-12-08 12:53:32 +0100] [76284] [INFO] Worker exiting (pid: 76284)
+[2023-12-08 12:53:32 +0100] [76286] [INFO] Worker exiting (pid: 76286)
+[2023-12-08 12:53:32 +0100] [76283] [INFO] Worker exiting (pid: 76283)
+[2023-12-08 12:53:32 +0100] [76278] [INFO] Worker exiting (pid: 76278)
+[2023-12-08 12:53:32 +0100] [76281] [INFO] Worker exiting (pid: 76281)
+[2023-12-08 12:53:32 +0100] [76282] [INFO] Worker exiting (pid: 76282)
+[2023-12-08 12:53:32 +0100] [76279] [INFO] Worker exiting (pid: 76279)
+[2023-12-08 12:53:32 +0100] [76287] [INFO] Worker exiting (pid: 76287)
+[2023-12-08 12:53:32 +0100] [76285] [INFO] Worker exiting (pid: 76285)
+[2023-12-08 12:53:32 +0100] [76288] [INFO] Worker exiting (pid: 76288)
+[2023-12-08 12:53:32 +0100] [76292] [INFO] Worker exiting (pid: 76292)
+[2023-12-08 12:53:32 +0100] [76290] [INFO] Worker exiting (pid: 76290)
+[2023-12-08 12:53:32 +0100] [76289] [INFO] Worker exiting (pid: 76289)
+[2023-12-08 12:53:32 +0100] [76291] [INFO] Worker exiting (pid: 76291)
+[2023-12-08 12:53:32 +0100] [76293] [INFO] Worker exiting (pid: 76293)
+[2023-12-08 12:53:32 +0100] [76294] [INFO] Worker exiting (pid: 76294)
+[2023-12-08 12:53:32 +0100] [76270] [INFO] Shutting down: Master
+[2023-12-08 12:53:35 +0100] [76404] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:53:35 +0100] [76404] [INFO] Listening at: http://127.0.0.1:8000 (76404)
+[2023-12-08 12:53:35 +0100] [76404] [INFO] Using worker: sync
+[2023-12-08 12:53:35 +0100] [76412] [INFO] Booting worker with pid: 76412
+[2023-12-08 12:53:35 +0100] [76413] [INFO] Booting worker with pid: 76413
+[2023-12-08 12:53:35 +0100] [76414] [INFO] Booting worker with pid: 76414
+[2023-12-08 12:53:35 +0100] [76415] [INFO] Booting worker with pid: 76415
+[2023-12-08 12:53:35 +0100] [76416] [INFO] Booting worker with pid: 76416
+[2023-12-08 12:53:35 +0100] [76417] [INFO] Booting worker with pid: 76417
+[2023-12-08 12:53:35 +0100] [76418] [INFO] Booting worker with pid: 76418
+[2023-12-08 12:53:35 +0100] [76419] [INFO] Booting worker with pid: 76419
+[2023-12-08 12:53:35 +0100] [76420] [INFO] Booting worker with pid: 76420
+[2023-12-08 12:53:35 +0100] [76421] [INFO] Booting worker with pid: 76421
+[2023-12-08 12:53:35 +0100] [76422] [INFO] Booting worker with pid: 76422
+[2023-12-08 12:53:35 +0100] [76423] [INFO] Booting worker with pid: 76423
+[2023-12-08 12:53:35 +0100] [76424] [INFO] Booting worker with pid: 76424
+[2023-12-08 12:53:35 +0100] [76425] [INFO] Booting worker with pid: 76425
+[2023-12-08 12:53:35 +0100] [76426] [INFO] Booting worker with pid: 76426
+[2023-12-08 12:53:35 +0100] [76427] [INFO] Booting worker with pid: 76427
+[2023-12-08 12:53:35 +0100] [76428] [INFO] Booting worker with pid: 76428
+[2023-12-08 12:55:22 +0100] [76404] [INFO] Handling signal: term
+[2023-12-08 12:55:22 +0100] [76416] [INFO] Worker exiting (pid: 76416)
+[2023-12-08 12:55:22 +0100] [76419] [INFO] Worker exiting (pid: 76419)
+[2023-12-08 12:55:22 +0100] [76415] [INFO] Worker exiting (pid: 76415)
+[2023-12-08 12:55:22 +0100] [76414] [INFO] Worker exiting (pid: 76414)
+[2023-12-08 12:55:22 +0100] [76417] [INFO] Worker exiting (pid: 76417)
+[2023-12-08 12:55:22 +0100] [76413] [INFO] Worker exiting (pid: 76413)
+[2023-12-08 12:55:22 +0100] [76412] [INFO] Worker exiting (pid: 76412)
+[2023-12-08 12:55:22 +0100] [76418] [INFO] Worker exiting (pid: 76418)
+[2023-12-08 12:55:22 +0100] [76420] [INFO] Worker exiting (pid: 76420)
+[2023-12-08 12:55:22 +0100] [76421] [INFO] Worker exiting (pid: 76421)
+[2023-12-08 12:55:22 +0100] [76422] [INFO] Worker exiting (pid: 76422)
+[2023-12-08 12:55:22 +0100] [76423] [INFO] Worker exiting (pid: 76423)
+[2023-12-08 12:55:22 +0100] [76424] [INFO] Worker exiting (pid: 76424)
+[2023-12-08 12:55:22 +0100] [76425] [INFO] Worker exiting (pid: 76425)
+[2023-12-08 12:55:22 +0100] [76426] [INFO] Worker exiting (pid: 76426)
+[2023-12-08 12:55:22 +0100] [76427] [INFO] Worker exiting (pid: 76427)
+[2023-12-08 12:55:22 +0100] [76428] [INFO] Worker exiting (pid: 76428)
+[2023-12-08 12:55:22 +0100] [76404] [INFO] Shutting down: Master
+[2023-12-08 12:55:25 +0100] [76589] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:55:25 +0100] [76589] [INFO] Listening at: http://127.0.0.1:8000 (76589)
+[2023-12-08 12:55:25 +0100] [76589] [INFO] Using worker: sync
+[2023-12-08 12:55:25 +0100] [76597] [INFO] Booting worker with pid: 76597
+[2023-12-08 12:55:25 +0100] [76598] [INFO] Booting worker with pid: 76598
+[2023-12-08 12:55:25 +0100] [76599] [INFO] Booting worker with pid: 76599
+[2023-12-08 12:55:25 +0100] [76600] [INFO] Booting worker with pid: 76600
+[2023-12-08 12:55:25 +0100] [76601] [INFO] Booting worker with pid: 76601
+[2023-12-08 12:55:25 +0100] [76602] [INFO] Booting worker with pid: 76602
+[2023-12-08 12:55:25 +0100] [76603] [INFO] Booting worker with pid: 76603
+[2023-12-08 12:55:25 +0100] [76604] [INFO] Booting worker with pid: 76604
+[2023-12-08 12:55:25 +0100] [76605] [INFO] Booting worker with pid: 76605
+[2023-12-08 12:55:25 +0100] [76606] [INFO] Booting worker with pid: 76606
+[2023-12-08 12:55:25 +0100] [76607] [INFO] Booting worker with pid: 76607
+[2023-12-08 12:55:25 +0100] [76608] [INFO] Booting worker with pid: 76608
+[2023-12-08 12:55:25 +0100] [76609] [INFO] Booting worker with pid: 76609
+[2023-12-08 12:55:25 +0100] [76610] [INFO] Booting worker with pid: 76610
+[2023-12-08 12:55:25 +0100] [76611] [INFO] Booting worker with pid: 76611
+[2023-12-08 12:55:25 +0100] [76612] [INFO] Booting worker with pid: 76612
+[2023-12-08 12:55:25 +0100] [76613] [INFO] Booting worker with pid: 76613
+[2023-12-08 12:56:26 +0100] [76589] [INFO] Handling signal: term
+[2023-12-08 12:56:26 +0100] [76599] [INFO] Worker exiting (pid: 76599)
+[2023-12-08 12:56:26 +0100] [76597] [INFO] Worker exiting (pid: 76597)
+[2023-12-08 12:56:26 +0100] [76602] [INFO] Worker exiting (pid: 76602)
+[2023-12-08 12:56:26 +0100] [76601] [INFO] Worker exiting (pid: 76601)
+[2023-12-08 12:56:26 +0100] [76603] [INFO] Worker exiting (pid: 76603)
+[2023-12-08 12:56:26 +0100] [76600] [INFO] Worker exiting (pid: 76600)
+[2023-12-08 12:56:26 +0100] [76607] [INFO] Worker exiting (pid: 76607)
+[2023-12-08 12:56:26 +0100] [76612] [INFO] Worker exiting (pid: 76612)
+[2023-12-08 12:56:26 +0100] [76604] [INFO] Worker exiting (pid: 76604)
+[2023-12-08 12:56:26 +0100] [76598] [INFO] Worker exiting (pid: 76598)
+[2023-12-08 12:56:26 +0100] [76609] [INFO] Worker exiting (pid: 76609)
+[2023-12-08 12:56:26 +0100] [76605] [INFO] Worker exiting (pid: 76605)
+[2023-12-08 12:56:26 +0100] [76613] [INFO] Worker exiting (pid: 76613)
+[2023-12-08 12:56:26 +0100] [76610] [INFO] Worker exiting (pid: 76610)
+[2023-12-08 12:56:26 +0100] [76606] [INFO] Worker exiting (pid: 76606)
+[2023-12-08 12:56:26 +0100] [76608] [INFO] Worker exiting (pid: 76608)
+[2023-12-08 12:56:26 +0100] [76611] [INFO] Worker exiting (pid: 76611)
+[2023-12-08 12:56:26 +0100] [76589] [INFO] Shutting down: Master
+[2023-12-08 12:56:29 +0100] [76721] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 12:56:29 +0100] [76721] [INFO] Listening at: http://127.0.0.1:8000 (76721)
+[2023-12-08 12:56:29 +0100] [76721] [INFO] Using worker: sync
+[2023-12-08 12:56:29 +0100] [76729] [INFO] Booting worker with pid: 76729
+[2023-12-08 12:56:29 +0100] [76730] [INFO] Booting worker with pid: 76730
+[2023-12-08 12:56:29 +0100] [76731] [INFO] Booting worker with pid: 76731
+[2023-12-08 12:56:29 +0100] [76732] [INFO] Booting worker with pid: 76732
+[2023-12-08 12:56:29 +0100] [76733] [INFO] Booting worker with pid: 76733
+[2023-12-08 12:56:29 +0100] [76734] [INFO] Booting worker with pid: 76734
+[2023-12-08 12:56:29 +0100] [76735] [INFO] Booting worker with pid: 76735
+[2023-12-08 12:56:29 +0100] [76736] [INFO] Booting worker with pid: 76736
+[2023-12-08 12:56:29 +0100] [76737] [INFO] Booting worker with pid: 76737
+[2023-12-08 12:56:29 +0100] [76738] [INFO] Booting worker with pid: 76738
+[2023-12-08 12:56:29 +0100] [76739] [INFO] Booting worker with pid: 76739
+[2023-12-08 12:56:29 +0100] [76740] [INFO] Booting worker with pid: 76740
+[2023-12-08 12:56:29 +0100] [76741] [INFO] Booting worker with pid: 76741
+[2023-12-08 12:56:29 +0100] [76742] [INFO] Booting worker with pid: 76742
+[2023-12-08 12:56:30 +0100] [76743] [INFO] Booting worker with pid: 76743
+[2023-12-08 12:56:30 +0100] [76744] [INFO] Booting worker with pid: 76744
+[2023-12-08 12:56:30 +0100] [76745] [INFO] Booting worker with pid: 76745
+[2023-12-08 13:17:38 +0100] [76721] [INFO] Handling signal: term
+[2023-12-08 13:17:38 +0100] [76733] [INFO] Worker exiting (pid: 76733)
+[2023-12-08 13:17:38 +0100] [76735] [INFO] Worker exiting (pid: 76735)
+[2023-12-08 13:17:38 +0100] [76731] [INFO] Worker exiting (pid: 76731)
+[2023-12-08 13:17:38 +0100] [76734] [INFO] Worker exiting (pid: 76734)
+[2023-12-08 13:17:38 +0100] [76730] [INFO] Worker exiting (pid: 76730)
+[2023-12-08 13:17:38 +0100] [76729] [INFO] Worker exiting (pid: 76729)
+[2023-12-08 13:17:38 +0100] [76732] [INFO] Worker exiting (pid: 76732)
+[2023-12-08 13:17:38 +0100] [76736] [INFO] Worker exiting (pid: 76736)
+[2023-12-08 13:17:38 +0100] [76741] [INFO] Worker exiting (pid: 76741)
+[2023-12-08 13:17:38 +0100] [76737] [INFO] Worker exiting (pid: 76737)
+[2023-12-08 13:17:38 +0100] [76738] [INFO] Worker exiting (pid: 76738)
+[2023-12-08 13:17:38 +0100] [76742] [INFO] Worker exiting (pid: 76742)
+[2023-12-08 13:17:38 +0100] [76740] [INFO] Worker exiting (pid: 76740)
+[2023-12-08 13:17:38 +0100] [76743] [INFO] Worker exiting (pid: 76743)
+[2023-12-08 13:17:38 +0100] [76739] [INFO] Worker exiting (pid: 76739)
+[2023-12-08 13:17:38 +0100] [76744] [INFO] Worker exiting (pid: 76744)
+[2023-12-08 13:17:38 +0100] [76745] [INFO] Worker exiting (pid: 76745)
+[2023-12-08 13:17:38 +0100] [76721] [INFO] Shutting down: Master
+[2023-12-08 13:17:41 +0100] [77832] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:17:41 +0100] [77832] [INFO] Listening at: http://127.0.0.1:8000 (77832)
+[2023-12-08 13:17:41 +0100] [77832] [INFO] Using worker: sync
+[2023-12-08 13:17:41 +0100] [77840] [INFO] Booting worker with pid: 77840
+[2023-12-08 13:17:41 +0100] [77841] [INFO] Booting worker with pid: 77841
+[2023-12-08 13:17:41 +0100] [77842] [INFO] Booting worker with pid: 77842
+[2023-12-08 13:17:41 +0100] [77843] [INFO] Booting worker with pid: 77843
+[2023-12-08 13:17:41 +0100] [77844] [INFO] Booting worker with pid: 77844
+[2023-12-08 13:17:41 +0100] [77845] [INFO] Booting worker with pid: 77845
+[2023-12-08 13:17:41 +0100] [77846] [INFO] Booting worker with pid: 77846
+[2023-12-08 13:17:41 +0100] [77847] [INFO] Booting worker with pid: 77847
+[2023-12-08 13:17:41 +0100] [77848] [INFO] Booting worker with pid: 77848
+[2023-12-08 13:17:42 +0100] [77849] [INFO] Booting worker with pid: 77849
+[2023-12-08 13:17:42 +0100] [77850] [INFO] Booting worker with pid: 77850
+[2023-12-08 13:17:42 +0100] [77851] [INFO] Booting worker with pid: 77851
+[2023-12-08 13:17:42 +0100] [77852] [INFO] Booting worker with pid: 77852
+[2023-12-08 13:17:42 +0100] [77853] [INFO] Booting worker with pid: 77853
+[2023-12-08 13:17:42 +0100] [77854] [INFO] Booting worker with pid: 77854
+[2023-12-08 13:17:42 +0100] [77855] [INFO] Booting worker with pid: 77855
+[2023-12-08 13:17:42 +0100] [77856] [INFO] Booting worker with pid: 77856
+[2023-12-08 13:18:01 +0100] [77832] [INFO] Handling signal: term
+[2023-12-08 13:18:01 +0100] [77841] [INFO] Worker exiting (pid: 77841)
+[2023-12-08 13:18:01 +0100] [77847] [INFO] Worker exiting (pid: 77847)
+[2023-12-08 13:18:01 +0100] [77845] [INFO] Worker exiting (pid: 77845)
+[2023-12-08 13:18:01 +0100] [77842] [INFO] Worker exiting (pid: 77842)
+[2023-12-08 13:18:01 +0100] [77843] [INFO] Worker exiting (pid: 77843)
+[2023-12-08 13:18:01 +0100] [77840] [INFO] Worker exiting (pid: 77840)
+[2023-12-08 13:18:01 +0100] [77844] [INFO] Worker exiting (pid: 77844)
+[2023-12-08 13:18:01 +0100] [77848] [INFO] Worker exiting (pid: 77848)
+[2023-12-08 13:18:01 +0100] [77852] [INFO] Worker exiting (pid: 77852)
+[2023-12-08 13:18:01 +0100] [77855] [INFO] Worker exiting (pid: 77855)
+[2023-12-08 13:18:01 +0100] [77856] [INFO] Worker exiting (pid: 77856)
+[2023-12-08 13:18:01 +0100] [77849] [INFO] Worker exiting (pid: 77849)
+[2023-12-08 13:18:01 +0100] [77853] [INFO] Worker exiting (pid: 77853)
+[2023-12-08 13:18:01 +0100] [77851] [INFO] Worker exiting (pid: 77851)
+[2023-12-08 13:18:01 +0100] [77850] [INFO] Worker exiting (pid: 77850)
+[2023-12-08 13:18:01 +0100] [77854] [INFO] Worker exiting (pid: 77854)
+[2023-12-08 13:18:01 +0100] [77846] [INFO] Worker exiting (pid: 77846)
+[2023-12-08 13:18:01 +0100] [77832] [INFO] Shutting down: Master
+[2023-12-08 13:18:04 +0100] [77910] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:18:04 +0100] [77910] [INFO] Listening at: http://127.0.0.1:8000 (77910)
+[2023-12-08 13:18:04 +0100] [77910] [INFO] Using worker: sync
+[2023-12-08 13:18:04 +0100] [77918] [INFO] Booting worker with pid: 77918
+[2023-12-08 13:18:04 +0100] [77919] [INFO] Booting worker with pid: 77919
+[2023-12-08 13:18:04 +0100] [77920] [INFO] Booting worker with pid: 77920
+[2023-12-08 13:18:04 +0100] [77921] [INFO] Booting worker with pid: 77921
+[2023-12-08 13:18:04 +0100] [77922] [INFO] Booting worker with pid: 77922
+[2023-12-08 13:18:04 +0100] [77923] [INFO] Booting worker with pid: 77923
+[2023-12-08 13:18:04 +0100] [77924] [INFO] Booting worker with pid: 77924
+[2023-12-08 13:18:05 +0100] [77925] [INFO] Booting worker with pid: 77925
+[2023-12-08 13:18:05 +0100] [77926] [INFO] Booting worker with pid: 77926
+[2023-12-08 13:18:05 +0100] [77927] [INFO] Booting worker with pid: 77927
+[2023-12-08 13:18:05 +0100] [77928] [INFO] Booting worker with pid: 77928
+[2023-12-08 13:18:05 +0100] [77929] [INFO] Booting worker with pid: 77929
+[2023-12-08 13:18:05 +0100] [77930] [INFO] Booting worker with pid: 77930
+[2023-12-08 13:18:05 +0100] [77931] [INFO] Booting worker with pid: 77931
+[2023-12-08 13:18:05 +0100] [77932] [INFO] Booting worker with pid: 77932
+[2023-12-08 13:18:05 +0100] [77933] [INFO] Booting worker with pid: 77933
+[2023-12-08 13:18:05 +0100] [77941] [INFO] Booting worker with pid: 77941
+[2023-12-08 13:19:15 +0100] [77910] [INFO] Handling signal: term
+[2023-12-08 13:19:15 +0100] [77923] [INFO] Worker exiting (pid: 77923)
+[2023-12-08 13:19:15 +0100] [77919] [INFO] Worker exiting (pid: 77919)
+[2023-12-08 13:19:15 +0100] [77924] [INFO] Worker exiting (pid: 77924)
+[2023-12-08 13:19:15 +0100] [77926] [INFO] Worker exiting (pid: 77926)
+[2023-12-08 13:19:15 +0100] [77918] [INFO] Worker exiting (pid: 77918)
+[2023-12-08 13:19:15 +0100] [77922] [INFO] Worker exiting (pid: 77922)
+[2023-12-08 13:19:15 +0100] [77921] [INFO] Worker exiting (pid: 77921)
+[2023-12-08 13:19:15 +0100] [77920] [INFO] Worker exiting (pid: 77920)
+[2023-12-08 13:19:15 +0100] [77927] [INFO] Worker exiting (pid: 77927)
+[2023-12-08 13:19:15 +0100] [77930] [INFO] Worker exiting (pid: 77930)
+[2023-12-08 13:19:15 +0100] [77928] [INFO] Worker exiting (pid: 77928)
+[2023-12-08 13:19:15 +0100] [77932] [INFO] Worker exiting (pid: 77932)
+[2023-12-08 13:19:15 +0100] [77941] [INFO] Worker exiting (pid: 77941)
+[2023-12-08 13:19:15 +0100] [77925] [INFO] Worker exiting (pid: 77925)
+[2023-12-08 13:19:15 +0100] [77933] [INFO] Worker exiting (pid: 77933)
+[2023-12-08 13:19:15 +0100] [77929] [INFO] Worker exiting (pid: 77929)
+[2023-12-08 13:19:15 +0100] [77931] [INFO] Worker exiting (pid: 77931)
+[2023-12-08 13:19:15 +0100] [77910] [INFO] Shutting down: Master
+[2023-12-08 13:19:18 +0100] [78049] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:19:18 +0100] [78049] [INFO] Listening at: http://127.0.0.1:8000 (78049)
+[2023-12-08 13:19:18 +0100] [78049] [INFO] Using worker: sync
+[2023-12-08 13:19:18 +0100] [78057] [INFO] Booting worker with pid: 78057
+[2023-12-08 13:19:18 +0100] [78058] [INFO] Booting worker with pid: 78058
+[2023-12-08 13:19:18 +0100] [78059] [INFO] Booting worker with pid: 78059
+[2023-12-08 13:19:18 +0100] [78060] [INFO] Booting worker with pid: 78060
+[2023-12-08 13:19:18 +0100] [78061] [INFO] Booting worker with pid: 78061
+[2023-12-08 13:19:18 +0100] [78062] [INFO] Booting worker with pid: 78062
+[2023-12-08 13:19:18 +0100] [78063] [INFO] Booting worker with pid: 78063
+[2023-12-08 13:19:18 +0100] [78064] [INFO] Booting worker with pid: 78064
+[2023-12-08 13:19:18 +0100] [78065] [INFO] Booting worker with pid: 78065
+[2023-12-08 13:19:18 +0100] [78066] [INFO] Booting worker with pid: 78066
+[2023-12-08 13:19:18 +0100] [78067] [INFO] Booting worker with pid: 78067
+[2023-12-08 13:19:18 +0100] [78068] [INFO] Booting worker with pid: 78068
+[2023-12-08 13:19:19 +0100] [78069] [INFO] Booting worker with pid: 78069
+[2023-12-08 13:19:19 +0100] [78070] [INFO] Booting worker with pid: 78070
+[2023-12-08 13:19:19 +0100] [78071] [INFO] Booting worker with pid: 78071
+[2023-12-08 13:19:19 +0100] [78072] [INFO] Booting worker with pid: 78072
+[2023-12-08 13:19:19 +0100] [78080] [INFO] Booting worker with pid: 78080
+[2023-12-08 13:19:56 +0100] [78049] [INFO] Handling signal: term
+[2023-12-08 13:19:56 +0100] [78058] [INFO] Worker exiting (pid: 78058)
+[2023-12-08 13:19:56 +0100] [78061] [INFO] Worker exiting (pid: 78061)
+[2023-12-08 13:19:56 +0100] [78063] [INFO] Worker exiting (pid: 78063)
+[2023-12-08 13:19:56 +0100] [78060] [INFO] Worker exiting (pid: 78060)
+[2023-12-08 13:19:56 +0100] [78057] [INFO] Worker exiting (pid: 78057)
+[2023-12-08 13:19:56 +0100] [78064] [INFO] Worker exiting (pid: 78064)
+[2023-12-08 13:19:56 +0100] [78062] [INFO] Worker exiting (pid: 78062)
+[2023-12-08 13:19:56 +0100] [78059] [INFO] Worker exiting (pid: 78059)
+[2023-12-08 13:19:56 +0100] [78065] [INFO] Worker exiting (pid: 78065)
+[2023-12-08 13:19:56 +0100] [78068] [INFO] Worker exiting (pid: 78068)
+[2023-12-08 13:19:56 +0100] [78066] [INFO] Worker exiting (pid: 78066)
+[2023-12-08 13:19:56 +0100] [78067] [INFO] Worker exiting (pid: 78067)
+[2023-12-08 13:19:56 +0100] [78071] [INFO] Worker exiting (pid: 78071)
+[2023-12-08 13:19:56 +0100] [78069] [INFO] Worker exiting (pid: 78069)
+[2023-12-08 13:19:56 +0100] [78070] [INFO] Worker exiting (pid: 78070)
+[2023-12-08 13:19:56 +0100] [78072] [INFO] Worker exiting (pid: 78072)
+[2023-12-08 13:19:56 +0100] [78080] [INFO] Worker exiting (pid: 78080)
+[2023-12-08 13:19:56 +0100] [78049] [INFO] Shutting down: Master
+[2023-12-08 13:19:58 +0100] [78154] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:19:58 +0100] [78154] [INFO] Listening at: http://127.0.0.1:8000 (78154)
+[2023-12-08 13:19:58 +0100] [78154] [INFO] Using worker: sync
+[2023-12-08 13:19:58 +0100] [78185] [INFO] Booting worker with pid: 78185
+[2023-12-08 13:19:58 +0100] [78186] [INFO] Booting worker with pid: 78186
+[2023-12-08 13:19:58 +0100] [78188] [INFO] Booting worker with pid: 78188
+[2023-12-08 13:19:58 +0100] [78190] [INFO] Booting worker with pid: 78190
+[2023-12-08 13:19:58 +0100] [78191] [INFO] Booting worker with pid: 78191
+[2023-12-08 13:19:58 +0100] [78192] [INFO] Booting worker with pid: 78192
+[2023-12-08 13:19:58 +0100] [78193] [INFO] Booting worker with pid: 78193
+[2023-12-08 13:19:58 +0100] [78194] [INFO] Booting worker with pid: 78194
+[2023-12-08 13:19:58 +0100] [78195] [INFO] Booting worker with pid: 78195
+[2023-12-08 13:19:58 +0100] [78196] [INFO] Booting worker with pid: 78196
+[2023-12-08 13:19:58 +0100] [78197] [INFO] Booting worker with pid: 78197
+[2023-12-08 13:19:58 +0100] [78198] [INFO] Booting worker with pid: 78198
+[2023-12-08 13:19:58 +0100] [78199] [INFO] Booting worker with pid: 78199
+[2023-12-08 13:19:58 +0100] [78200] [INFO] Booting worker with pid: 78200
+[2023-12-08 13:19:59 +0100] [78201] [INFO] Booting worker with pid: 78201
+[2023-12-08 13:19:59 +0100] [78202] [INFO] Booting worker with pid: 78202
+[2023-12-08 13:19:59 +0100] [78203] [INFO] Booting worker with pid: 78203
+[2023-12-08 13:20:11 +0100] [78154] [INFO] Handling signal: term
+[2023-12-08 13:20:11 +0100] [78191] [INFO] Worker exiting (pid: 78191)
+[2023-12-08 13:20:11 +0100] [78193] [INFO] Worker exiting (pid: 78193)
+[2023-12-08 13:20:11 +0100] [78190] [INFO] Worker exiting (pid: 78190)
+[2023-12-08 13:20:11 +0100] [78194] [INFO] Worker exiting (pid: 78194)
+[2023-12-08 13:20:11 +0100] [78188] [INFO] Worker exiting (pid: 78188)
+[2023-12-08 13:20:11 +0100] [78185] [INFO] Worker exiting (pid: 78185)
+[2023-12-08 13:20:11 +0100] [78186] [INFO] Worker exiting (pid: 78186)
+[2023-12-08 13:20:11 +0100] [78203] [INFO] Worker exiting (pid: 78203)
+[2023-12-08 13:20:11 +0100] [78192] [INFO] Worker exiting (pid: 78192)
+[2023-12-08 13:20:11 +0100] [78200] [INFO] Worker exiting (pid: 78200)
+[2023-12-08 13:20:11 +0100] [78195] [INFO] Worker exiting (pid: 78195)
+[2023-12-08 13:20:11 +0100] [78198] [INFO] Worker exiting (pid: 78198)
+[2023-12-08 13:20:11 +0100] [78196] [INFO] Worker exiting (pid: 78196)
+[2023-12-08 13:20:11 +0100] [78202] [INFO] Worker exiting (pid: 78202)
+[2023-12-08 13:20:11 +0100] [78199] [INFO] Worker exiting (pid: 78199)
+[2023-12-08 13:20:11 +0100] [78201] [INFO] Worker exiting (pid: 78201)
+[2023-12-08 13:20:11 +0100] [78197] [INFO] Worker exiting (pid: 78197)
+[2023-12-08 13:20:11 +0100] [78154] [INFO] Shutting down: Master
+[2023-12-08 13:20:14 +0100] [78319] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:20:14 +0100] [78319] [INFO] Listening at: http://127.0.0.1:8000 (78319)
+[2023-12-08 13:20:14 +0100] [78319] [INFO] Using worker: sync
+[2023-12-08 13:20:14 +0100] [78327] [INFO] Booting worker with pid: 78327
+[2023-12-08 13:20:14 +0100] [78328] [INFO] Booting worker with pid: 78328
+[2023-12-08 13:20:14 +0100] [78329] [INFO] Booting worker with pid: 78329
+[2023-12-08 13:20:14 +0100] [78330] [INFO] Booting worker with pid: 78330
+[2023-12-08 13:20:14 +0100] [78331] [INFO] Booting worker with pid: 78331
+[2023-12-08 13:20:14 +0100] [78332] [INFO] Booting worker with pid: 78332
+[2023-12-08 13:20:14 +0100] [78333] [INFO] Booting worker with pid: 78333
+[2023-12-08 13:20:15 +0100] [78334] [INFO] Booting worker with pid: 78334
+[2023-12-08 13:20:15 +0100] [78335] [INFO] Booting worker with pid: 78335
+[2023-12-08 13:20:15 +0100] [78336] [INFO] Booting worker with pid: 78336
+[2023-12-08 13:20:15 +0100] [78337] [INFO] Booting worker with pid: 78337
+[2023-12-08 13:20:15 +0100] [78338] [INFO] Booting worker with pid: 78338
+[2023-12-08 13:20:15 +0100] [78339] [INFO] Booting worker with pid: 78339
+[2023-12-08 13:20:15 +0100] [78340] [INFO] Booting worker with pid: 78340
+[2023-12-08 13:20:15 +0100] [78341] [INFO] Booting worker with pid: 78341
+[2023-12-08 13:20:15 +0100] [78342] [INFO] Booting worker with pid: 78342
+[2023-12-08 13:20:15 +0100] [78350] [INFO] Booting worker with pid: 78350
+[2023-12-08 13:20:43 +0100] [78319] [INFO] Handling signal: term
+[2023-12-08 13:20:43 +0100] [78331] [INFO] Worker exiting (pid: 78331)
+[2023-12-08 13:20:43 +0100] [78332] [INFO] Worker exiting (pid: 78332)
+[2023-12-08 13:20:43 +0100] [78334] [INFO] Worker exiting (pid: 78334)
+[2023-12-08 13:20:43 +0100] [78333] [INFO] Worker exiting (pid: 78333)
+[2023-12-08 13:20:43 +0100] [78329] [INFO] Worker exiting (pid: 78329)
+[2023-12-08 13:20:43 +0100] [78327] [INFO] Worker exiting (pid: 78327)
+[2023-12-08 13:20:43 +0100] [78328] [INFO] Worker exiting (pid: 78328)
+[2023-12-08 13:20:43 +0100] [78330] [INFO] Worker exiting (pid: 78330)
+[2023-12-08 13:20:43 +0100] [78336] [INFO] Worker exiting (pid: 78336)
+[2023-12-08 13:20:43 +0100] [78350] [INFO] Worker exiting (pid: 78350)
+[2023-12-08 13:20:43 +0100] [78335] [INFO] Worker exiting (pid: 78335)
+[2023-12-08 13:20:43 +0100] [78337] [INFO] Worker exiting (pid: 78337)
+[2023-12-08 13:20:43 +0100] [78338] [INFO] Worker exiting (pid: 78338)
+[2023-12-08 13:20:43 +0100] [78340] [INFO] Worker exiting (pid: 78340)
+[2023-12-08 13:20:43 +0100] [78339] [INFO] Worker exiting (pid: 78339)
+[2023-12-08 13:20:43 +0100] [78342] [INFO] Worker exiting (pid: 78342)
+[2023-12-08 13:20:43 +0100] [78341] [INFO] Worker exiting (pid: 78341)
+[2023-12-08 13:20:43 +0100] [78319] [INFO] Shutting down: Master
+[2023-12-08 13:20:46 +0100] [78466] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:20:46 +0100] [78466] [INFO] Listening at: http://127.0.0.1:8000 (78466)
+[2023-12-08 13:20:46 +0100] [78466] [INFO] Using worker: sync
+[2023-12-08 13:20:46 +0100] [78474] [INFO] Booting worker with pid: 78474
+[2023-12-08 13:20:46 +0100] [78475] [INFO] Booting worker with pid: 78475
+[2023-12-08 13:20:46 +0100] [78476] [INFO] Booting worker with pid: 78476
+[2023-12-08 13:20:46 +0100] [78477] [INFO] Booting worker with pid: 78477
+[2023-12-08 13:20:46 +0100] [78478] [INFO] Booting worker with pid: 78478
+[2023-12-08 13:20:46 +0100] [78479] [INFO] Booting worker with pid: 78479
+[2023-12-08 13:20:46 +0100] [78480] [INFO] Booting worker with pid: 78480
+[2023-12-08 13:20:46 +0100] [78481] [INFO] Booting worker with pid: 78481
+[2023-12-08 13:20:46 +0100] [78482] [INFO] Booting worker with pid: 78482
+[2023-12-08 13:20:46 +0100] [78483] [INFO] Booting worker with pid: 78483
+[2023-12-08 13:20:46 +0100] [78484] [INFO] Booting worker with pid: 78484
+[2023-12-08 13:20:46 +0100] [78485] [INFO] Booting worker with pid: 78485
+[2023-12-08 13:20:46 +0100] [78486] [INFO] Booting worker with pid: 78486
+[2023-12-08 13:20:46 +0100] [78487] [INFO] Booting worker with pid: 78487
+[2023-12-08 13:20:46 +0100] [78488] [INFO] Booting worker with pid: 78488
+[2023-12-08 13:20:46 +0100] [78489] [INFO] Booting worker with pid: 78489
+[2023-12-08 13:20:47 +0100] [78490] [INFO] Booting worker with pid: 78490
+[2023-12-08 13:23:28 +0100] [78466] [INFO] Handling signal: term
+[2023-12-08 13:23:28 +0100] [78479] [INFO] Worker exiting (pid: 78479)
+[2023-12-08 13:23:28 +0100] [78483] [INFO] Worker exiting (pid: 78483)
+[2023-12-08 13:23:28 +0100] [78476] [INFO] Worker exiting (pid: 78476)
+[2023-12-08 13:23:28 +0100] [78475] [INFO] Worker exiting (pid: 78475)
+[2023-12-08 13:23:28 +0100] [78474] [INFO] Worker exiting (pid: 78474)
+[2023-12-08 13:23:28 +0100] [78478] [INFO] Worker exiting (pid: 78478)
+[2023-12-08 13:23:28 +0100] [78477] [INFO] Worker exiting (pid: 78477)
+[2023-12-08 13:23:28 +0100] [78480] [INFO] Worker exiting (pid: 78480)
+[2023-12-08 13:23:28 +0100] [78482] [INFO] Worker exiting (pid: 78482)
+[2023-12-08 13:23:28 +0100] [78481] [INFO] Worker exiting (pid: 78481)
+[2023-12-08 13:23:28 +0100] [78484] [INFO] Worker exiting (pid: 78484)
+[2023-12-08 13:23:28 +0100] [78485] [INFO] Worker exiting (pid: 78485)
+[2023-12-08 13:23:28 +0100] [78486] [INFO] Worker exiting (pid: 78486)
+[2023-12-08 13:23:28 +0100] [78487] [INFO] Worker exiting (pid: 78487)
+[2023-12-08 13:23:28 +0100] [78488] [INFO] Worker exiting (pid: 78488)
+[2023-12-08 13:23:28 +0100] [78489] [INFO] Worker exiting (pid: 78489)
+[2023-12-08 13:23:28 +0100] [78490] [INFO] Worker exiting (pid: 78490)
+[2023-12-08 13:23:28 +0100] [78466] [INFO] Shutting down: Master
+[2023-12-08 13:23:31 +0100] [78639] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:23:31 +0100] [78639] [INFO] Listening at: http://127.0.0.1:8000 (78639)
+[2023-12-08 13:23:31 +0100] [78639] [INFO] Using worker: sync
+[2023-12-08 13:23:31 +0100] [78647] [INFO] Booting worker with pid: 78647
+[2023-12-08 13:23:31 +0100] [78648] [INFO] Booting worker with pid: 78648
+[2023-12-08 13:23:31 +0100] [78649] [INFO] Booting worker with pid: 78649
+[2023-12-08 13:23:31 +0100] [78650] [INFO] Booting worker with pid: 78650
+[2023-12-08 13:23:31 +0100] [78651] [INFO] Booting worker with pid: 78651
+[2023-12-08 13:23:31 +0100] [78652] [INFO] Booting worker with pid: 78652
+[2023-12-08 13:23:31 +0100] [78653] [INFO] Booting worker with pid: 78653
+[2023-12-08 13:23:31 +0100] [78654] [INFO] Booting worker with pid: 78654
+[2023-12-08 13:23:31 +0100] [78655] [INFO] Booting worker with pid: 78655
+[2023-12-08 13:23:31 +0100] [78656] [INFO] Booting worker with pid: 78656
+[2023-12-08 13:23:32 +0100] [78657] [INFO] Booting worker with pid: 78657
+[2023-12-08 13:23:32 +0100] [78658] [INFO] Booting worker with pid: 78658
+[2023-12-08 13:23:32 +0100] [78659] [INFO] Booting worker with pid: 78659
+[2023-12-08 13:23:32 +0100] [78660] [INFO] Booting worker with pid: 78660
+[2023-12-08 13:23:32 +0100] [78668] [INFO] Booting worker with pid: 78668
+[2023-12-08 13:23:32 +0100] [78669] [INFO] Booting worker with pid: 78669
+[2023-12-08 13:23:32 +0100] [78670] [INFO] Booting worker with pid: 78670
+[2023-12-08 13:24:33 +0100] [78639] [INFO] Handling signal: term
+[2023-12-08 13:24:33 +0100] [78649] [INFO] Worker exiting (pid: 78649)
+[2023-12-08 13:24:33 +0100] [78654] [INFO] Worker exiting (pid: 78654)
+[2023-12-08 13:24:33 +0100] [78657] [INFO] Worker exiting (pid: 78657)
+[2023-12-08 13:24:33 +0100] [78648] [INFO] Worker exiting (pid: 78648)
+[2023-12-08 13:24:33 +0100] [78647] [INFO] Worker exiting (pid: 78647)
+[2023-12-08 13:24:33 +0100] [78650] [INFO] Worker exiting (pid: 78650)
+[2023-12-08 13:24:33 +0100] [78652] [INFO] Worker exiting (pid: 78652)
+[2023-12-08 13:24:33 +0100] [78651] [INFO] Worker exiting (pid: 78651)
+[2023-12-08 13:24:33 +0100] [78655] [INFO] Worker exiting (pid: 78655)
+[2023-12-08 13:24:33 +0100] [78653] [INFO] Worker exiting (pid: 78653)
+[2023-12-08 13:24:33 +0100] [78658] [INFO] Worker exiting (pid: 78658)
+[2023-12-08 13:24:33 +0100] [78656] [INFO] Worker exiting (pid: 78656)
+[2023-12-08 13:24:33 +0100] [78670] [INFO] Worker exiting (pid: 78670)
+[2023-12-08 13:24:33 +0100] [78660] [INFO] Worker exiting (pid: 78660)
+[2023-12-08 13:24:33 +0100] [78669] [INFO] Worker exiting (pid: 78669)
+[2023-12-08 13:24:33 +0100] [78659] [INFO] Worker exiting (pid: 78659)
+[2023-12-08 13:24:33 +0100] [78668] [INFO] Worker exiting (pid: 78668)
+[2023-12-08 13:24:33 +0100] [78639] [INFO] Shutting down: Master
+[2023-12-08 13:24:35 +0100] [78709] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:24:35 +0100] [78709] [INFO] Listening at: http://127.0.0.1:8000 (78709)
+[2023-12-08 13:24:35 +0100] [78709] [INFO] Using worker: sync
+[2023-12-08 13:24:35 +0100] [78740] [INFO] Booting worker with pid: 78740
+[2023-12-08 13:24:35 +0100] [78741] [INFO] Booting worker with pid: 78741
+[2023-12-08 13:24:35 +0100] [78743] [INFO] Booting worker with pid: 78743
+[2023-12-08 13:24:35 +0100] [78745] [INFO] Booting worker with pid: 78745
+[2023-12-08 13:24:35 +0100] [78746] [INFO] Booting worker with pid: 78746
+[2023-12-08 13:24:35 +0100] [78747] [INFO] Booting worker with pid: 78747
+[2023-12-08 13:24:35 +0100] [78748] [INFO] Booting worker with pid: 78748
+[2023-12-08 13:24:35 +0100] [78749] [INFO] Booting worker with pid: 78749
+[2023-12-08 13:24:35 +0100] [78750] [INFO] Booting worker with pid: 78750
+[2023-12-08 13:24:35 +0100] [78751] [INFO] Booting worker with pid: 78751
+[2023-12-08 13:24:35 +0100] [78752] [INFO] Booting worker with pid: 78752
+[2023-12-08 13:24:35 +0100] [78753] [INFO] Booting worker with pid: 78753
+[2023-12-08 13:24:35 +0100] [78754] [INFO] Booting worker with pid: 78754
+[2023-12-08 13:24:35 +0100] [78755] [INFO] Booting worker with pid: 78755
+[2023-12-08 13:24:36 +0100] [78756] [INFO] Booting worker with pid: 78756
+[2023-12-08 13:24:36 +0100] [78757] [INFO] Booting worker with pid: 78757
+[2023-12-08 13:24:36 +0100] [78765] [INFO] Booting worker with pid: 78765
+[2023-12-08 13:24:50 +0100] [78709] [INFO] Handling signal: term
+[2023-12-08 13:24:50 +0100] [78740] [INFO] Worker exiting (pid: 78740)
+[2023-12-08 13:24:50 +0100] [78750] [INFO] Worker exiting (pid: 78750)
+[2023-12-08 13:24:50 +0100] [78746] [INFO] Worker exiting (pid: 78746)
+[2023-12-08 13:24:50 +0100] [78747] [INFO] Worker exiting (pid: 78747)
+[2023-12-08 13:24:50 +0100] [78743] [INFO] Worker exiting (pid: 78743)
+[2023-12-08 13:24:50 +0100] [78745] [INFO] Worker exiting (pid: 78745)
+[2023-12-08 13:24:50 +0100] [78741] [INFO] Worker exiting (pid: 78741)
+[2023-12-08 13:24:50 +0100] [78752] [INFO] Worker exiting (pid: 78752)
+[2023-12-08 13:24:50 +0100] [78751] [INFO] Worker exiting (pid: 78751)
+[2023-12-08 13:24:50 +0100] [78748] [INFO] Worker exiting (pid: 78748)
+[2023-12-08 13:24:50 +0100] [78756] [INFO] Worker exiting (pid: 78756)
+[2023-12-08 13:24:50 +0100] [78754] [INFO] Worker exiting (pid: 78754)
+[2023-12-08 13:24:50 +0100] [78753] [INFO] Worker exiting (pid: 78753)
+[2023-12-08 13:24:50 +0100] [78749] [INFO] Worker exiting (pid: 78749)
+[2023-12-08 13:24:50 +0100] [78765] [INFO] Worker exiting (pid: 78765)
+[2023-12-08 13:24:50 +0100] [78757] [INFO] Worker exiting (pid: 78757)
+[2023-12-08 13:24:50 +0100] [78755] [INFO] Worker exiting (pid: 78755)
+[2023-12-08 13:24:50 +0100] [78709] [INFO] Shutting down: Master
+[2023-12-08 13:24:53 +0100] [78813] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:24:53 +0100] [78813] [INFO] Listening at: http://127.0.0.1:8000 (78813)
+[2023-12-08 13:24:53 +0100] [78813] [INFO] Using worker: sync
+[2023-12-08 13:24:53 +0100] [78821] [INFO] Booting worker with pid: 78821
+[2023-12-08 13:24:53 +0100] [78822] [INFO] Booting worker with pid: 78822
+[2023-12-08 13:24:53 +0100] [78823] [INFO] Booting worker with pid: 78823
+[2023-12-08 13:24:53 +0100] [78824] [INFO] Booting worker with pid: 78824
+[2023-12-08 13:24:53 +0100] [78825] [INFO] Booting worker with pid: 78825
+[2023-12-08 13:24:53 +0100] [78826] [INFO] Booting worker with pid: 78826
+[2023-12-08 13:24:53 +0100] [78827] [INFO] Booting worker with pid: 78827
+[2023-12-08 13:24:53 +0100] [78828] [INFO] Booting worker with pid: 78828
+[2023-12-08 13:24:53 +0100] [78829] [INFO] Booting worker with pid: 78829
+[2023-12-08 13:24:53 +0100] [78830] [INFO] Booting worker with pid: 78830
+[2023-12-08 13:24:53 +0100] [78831] [INFO] Booting worker with pid: 78831
+[2023-12-08 13:24:53 +0100] [78832] [INFO] Booting worker with pid: 78832
+[2023-12-08 13:24:54 +0100] [78833] [INFO] Booting worker with pid: 78833
+[2023-12-08 13:24:54 +0100] [78834] [INFO] Booting worker with pid: 78834
+[2023-12-08 13:24:54 +0100] [78835] [INFO] Booting worker with pid: 78835
+[2023-12-08 13:24:54 +0100] [78836] [INFO] Booting worker with pid: 78836
+[2023-12-08 13:24:54 +0100] [78837] [INFO] Booting worker with pid: 78837
+[2023-12-08 13:25:45 +0100] [78813] [INFO] Handling signal: term
+[2023-12-08 13:25:45 +0100] [78824] [INFO] Worker exiting (pid: 78824)
+[2023-12-08 13:25:45 +0100] [78826] [INFO] Worker exiting (pid: 78826)
+[2023-12-08 13:25:45 +0100] [78823] [INFO] Worker exiting (pid: 78823)
+[2023-12-08 13:25:45 +0100] [78828] [INFO] Worker exiting (pid: 78828)
+[2023-12-08 13:25:45 +0100] [78827] [INFO] Worker exiting (pid: 78827)
+[2023-12-08 13:25:45 +0100] [78821] [INFO] Worker exiting (pid: 78821)
+[2023-12-08 13:25:45 +0100] [78822] [INFO] Worker exiting (pid: 78822)
+[2023-12-08 13:25:45 +0100] [78825] [INFO] Worker exiting (pid: 78825)
+[2023-12-08 13:25:45 +0100] [78831] [INFO] Worker exiting (pid: 78831)
+[2023-12-08 13:25:45 +0100] [78830] [INFO] Worker exiting (pid: 78830)
+[2023-12-08 13:25:45 +0100] [78832] [INFO] Worker exiting (pid: 78832)
+[2023-12-08 13:25:45 +0100] [78829] [INFO] Worker exiting (pid: 78829)
+[2023-12-08 13:25:45 +0100] [78834] [INFO] Worker exiting (pid: 78834)
+[2023-12-08 13:25:45 +0100] [78835] [INFO] Worker exiting (pid: 78835)
+[2023-12-08 13:25:45 +0100] [78833] [INFO] Worker exiting (pid: 78833)
+[2023-12-08 13:25:45 +0100] [78837] [INFO] Worker exiting (pid: 78837)
+[2023-12-08 13:25:45 +0100] [78836] [INFO] Worker exiting (pid: 78836)
+[2023-12-08 13:25:45 +0100] [78813] [INFO] Shutting down: Master
+[2023-12-08 13:25:47 +0100] [78876] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:25:47 +0100] [78876] [INFO] Listening at: http://127.0.0.1:8000 (78876)
+[2023-12-08 13:25:47 +0100] [78876] [INFO] Using worker: sync
+[2023-12-08 13:25:47 +0100] [78907] [INFO] Booting worker with pid: 78907
+[2023-12-08 13:25:47 +0100] [78910] [INFO] Booting worker with pid: 78910
+[2023-12-08 13:25:47 +0100] [78911] [INFO] Booting worker with pid: 78911
+[2023-12-08 13:25:47 +0100] [78912] [INFO] Booting worker with pid: 78912
+[2023-12-08 13:25:47 +0100] [78913] [INFO] Booting worker with pid: 78913
+[2023-12-08 13:25:47 +0100] [78914] [INFO] Booting worker with pid: 78914
+[2023-12-08 13:25:47 +0100] [78915] [INFO] Booting worker with pid: 78915
+[2023-12-08 13:25:47 +0100] [78916] [INFO] Booting worker with pid: 78916
+[2023-12-08 13:25:47 +0100] [78917] [INFO] Booting worker with pid: 78917
+[2023-12-08 13:25:47 +0100] [78918] [INFO] Booting worker with pid: 78918
+[2023-12-08 13:25:47 +0100] [78919] [INFO] Booting worker with pid: 78919
+[2023-12-08 13:25:48 +0100] [78920] [INFO] Booting worker with pid: 78920
+[2023-12-08 13:25:48 +0100] [78921] [INFO] Booting worker with pid: 78921
+[2023-12-08 13:25:48 +0100] [78922] [INFO] Booting worker with pid: 78922
+[2023-12-08 13:25:48 +0100] [78923] [INFO] Booting worker with pid: 78923
+[2023-12-08 13:25:48 +0100] [78924] [INFO] Booting worker with pid: 78924
+[2023-12-08 13:25:48 +0100] [78925] [INFO] Booting worker with pid: 78925
+[2023-12-08 13:26:09 +0100] [78876] [INFO] Handling signal: term
+[2023-12-08 13:26:09 +0100] [78916] [INFO] Worker exiting (pid: 78916)
+[2023-12-08 13:26:09 +0100] [78914] [INFO] Worker exiting (pid: 78914)
+[2023-12-08 13:26:09 +0100] [78910] [INFO] Worker exiting (pid: 78910)
+[2023-12-08 13:26:09 +0100] [78907] [INFO] Worker exiting (pid: 78907)
+[2023-12-08 13:26:09 +0100] [78911] [INFO] Worker exiting (pid: 78911)
+[2023-12-08 13:26:09 +0100] [78913] [INFO] Worker exiting (pid: 78913)
+[2023-12-08 13:26:09 +0100] [78912] [INFO] Worker exiting (pid: 78912)
+[2023-12-08 13:26:09 +0100] [78915] [INFO] Worker exiting (pid: 78915)
+[2023-12-08 13:26:09 +0100] [78925] [INFO] Worker exiting (pid: 78925)
+[2023-12-08 13:26:09 +0100] [78917] [INFO] Worker exiting (pid: 78917)
+[2023-12-08 13:26:09 +0100] [78922] [INFO] Worker exiting (pid: 78922)
+[2023-12-08 13:26:09 +0100] [78920] [INFO] Worker exiting (pid: 78920)
+[2023-12-08 13:26:09 +0100] [78918] [INFO] Worker exiting (pid: 78918)
+[2023-12-08 13:26:09 +0100] [78924] [INFO] Worker exiting (pid: 78924)
+[2023-12-08 13:26:09 +0100] [78921] [INFO] Worker exiting (pid: 78921)
+[2023-12-08 13:26:09 +0100] [78919] [INFO] Worker exiting (pid: 78919)
+[2023-12-08 13:26:09 +0100] [78923] [INFO] Worker exiting (pid: 78923)
+[2023-12-08 13:26:09 +0100] [78876] [INFO] Shutting down: Master
+[2023-12-08 13:26:12 +0100] [78965] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:26:12 +0100] [78965] [INFO] Listening at: http://127.0.0.1:8000 (78965)
+[2023-12-08 13:26:12 +0100] [78965] [INFO] Using worker: sync
+[2023-12-08 13:26:12 +0100] [78973] [INFO] Booting worker with pid: 78973
+[2023-12-08 13:26:12 +0100] [78974] [INFO] Booting worker with pid: 78974
+[2023-12-08 13:26:12 +0100] [78975] [INFO] Booting worker with pid: 78975
+[2023-12-08 13:26:12 +0100] [78976] [INFO] Booting worker with pid: 78976
+[2023-12-08 13:26:12 +0100] [78977] [INFO] Booting worker with pid: 78977
+[2023-12-08 13:26:12 +0100] [78978] [INFO] Booting worker with pid: 78978
+[2023-12-08 13:26:13 +0100] [78979] [INFO] Booting worker with pid: 78979
+[2023-12-08 13:26:13 +0100] [78980] [INFO] Booting worker with pid: 78980
+[2023-12-08 13:26:13 +0100] [78981] [INFO] Booting worker with pid: 78981
+[2023-12-08 13:26:13 +0100] [78982] [INFO] Booting worker with pid: 78982
+[2023-12-08 13:26:13 +0100] [78983] [INFO] Booting worker with pid: 78983
+[2023-12-08 13:26:13 +0100] [78984] [INFO] Booting worker with pid: 78984
+[2023-12-08 13:26:13 +0100] [78985] [INFO] Booting worker with pid: 78985
+[2023-12-08 13:26:13 +0100] [78986] [INFO] Booting worker with pid: 78986
+[2023-12-08 13:26:13 +0100] [78987] [INFO] Booting worker with pid: 78987
+[2023-12-08 13:26:13 +0100] [78988] [INFO] Booting worker with pid: 78988
+[2023-12-08 13:26:13 +0100] [78989] [INFO] Booting worker with pid: 78989
+[2023-12-08 13:29:38 +0100] [78965] [INFO] Handling signal: term
+[2023-12-08 13:29:38 +0100] [78979] [INFO] Worker exiting (pid: 78979)
+[2023-12-08 13:29:38 +0100] [78978] [INFO] Worker exiting (pid: 78978)
+[2023-12-08 13:29:38 +0100] [78976] [INFO] Worker exiting (pid: 78976)
+[2023-12-08 13:29:38 +0100] [78977] [INFO] Worker exiting (pid: 78977)
+[2023-12-08 13:29:38 +0100] [78973] [INFO] Worker exiting (pid: 78973)
+[2023-12-08 13:29:38 +0100] [78974] [INFO] Worker exiting (pid: 78974)
+[2023-12-08 13:29:38 +0100] [78975] [INFO] Worker exiting (pid: 78975)
+[2023-12-08 13:29:38 +0100] [78980] [INFO] Worker exiting (pid: 78980)
+[2023-12-08 13:29:38 +0100] [78982] [INFO] Worker exiting (pid: 78982)
+[2023-12-08 13:29:38 +0100] [78981] [INFO] Worker exiting (pid: 78981)
+[2023-12-08 13:29:38 +0100] [78984] [INFO] Worker exiting (pid: 78984)
+[2023-12-08 13:29:38 +0100] [78983] [INFO] Worker exiting (pid: 78983)
+[2023-12-08 13:29:38 +0100] [78985] [INFO] Worker exiting (pid: 78985)
+[2023-12-08 13:29:38 +0100] [78986] [INFO] Worker exiting (pid: 78986)
+[2023-12-08 13:29:38 +0100] [78987] [INFO] Worker exiting (pid: 78987)
+[2023-12-08 13:29:38 +0100] [78988] [INFO] Worker exiting (pid: 78988)
+[2023-12-08 13:29:38 +0100] [78989] [INFO] Worker exiting (pid: 78989)
+[2023-12-08 13:29:38 +0100] [78965] [INFO] Shutting down: Master
+[2023-12-08 13:29:41 +0100] [79161] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:29:41 +0100] [79161] [INFO] Listening at: http://127.0.0.1:8000 (79161)
+[2023-12-08 13:29:41 +0100] [79161] [INFO] Using worker: sync
+[2023-12-08 13:29:41 +0100] [79169] [INFO] Booting worker with pid: 79169
+[2023-12-08 13:29:41 +0100] [79170] [INFO] Booting worker with pid: 79170
+[2023-12-08 13:29:41 +0100] [79171] [INFO] Booting worker with pid: 79171
+[2023-12-08 13:29:41 +0100] [79172] [INFO] Booting worker with pid: 79172
+[2023-12-08 13:29:41 +0100] [79173] [INFO] Booting worker with pid: 79173
+[2023-12-08 13:29:41 +0100] [79174] [INFO] Booting worker with pid: 79174
+[2023-12-08 13:29:41 +0100] [79175] [INFO] Booting worker with pid: 79175
+[2023-12-08 13:29:41 +0100] [79176] [INFO] Booting worker with pid: 79176
+[2023-12-08 13:29:41 +0100] [79177] [INFO] Booting worker with pid: 79177
+[2023-12-08 13:29:41 +0100] [79178] [INFO] Booting worker with pid: 79178
+[2023-12-08 13:29:41 +0100] [79179] [INFO] Booting worker with pid: 79179
+[2023-12-08 13:29:41 +0100] [79180] [INFO] Booting worker with pid: 79180
+[2023-12-08 13:29:41 +0100] [79181] [INFO] Booting worker with pid: 79181
+[2023-12-08 13:29:41 +0100] [79182] [INFO] Booting worker with pid: 79182
+[2023-12-08 13:29:41 +0100] [79183] [INFO] Booting worker with pid: 79183
+[2023-12-08 13:29:41 +0100] [79191] [INFO] Booting worker with pid: 79191
+[2023-12-08 13:29:41 +0100] [79192] [INFO] Booting worker with pid: 79192
+[2023-12-08 13:29:53 +0100] [79161] [INFO] Handling signal: term
+[2023-12-08 13:29:53 +0100] [79172] [INFO] Worker exiting (pid: 79172)
+[2023-12-08 13:29:53 +0100] [79174] [INFO] Worker exiting (pid: 79174)
+[2023-12-08 13:29:53 +0100] [79169] [INFO] Worker exiting (pid: 79169)
+[2023-12-08 13:29:53 +0100] [79173] [INFO] Worker exiting (pid: 79173)
+[2023-12-08 13:29:53 +0100] [79171] [INFO] Worker exiting (pid: 79171)
+[2023-12-08 13:29:53 +0100] [79170] [INFO] Worker exiting (pid: 79170)
+[2023-12-08 13:29:53 +0100] [79175] [INFO] Worker exiting (pid: 79175)
+[2023-12-08 13:29:53 +0100] [79179] [INFO] Worker exiting (pid: 79179)
+[2023-12-08 13:29:53 +0100] [79180] [INFO] Worker exiting (pid: 79180)
+[2023-12-08 13:29:53 +0100] [79177] [INFO] Worker exiting (pid: 79177)
+[2023-12-08 13:29:53 +0100] [79181] [INFO] Worker exiting (pid: 79181)
+[2023-12-08 13:29:53 +0100] [79176] [INFO] Worker exiting (pid: 79176)
+[2023-12-08 13:29:53 +0100] [79178] [INFO] Worker exiting (pid: 79178)
+[2023-12-08 13:29:53 +0100] [79183] [INFO] Worker exiting (pid: 79183)
+[2023-12-08 13:29:53 +0100] [79191] [INFO] Worker exiting (pid: 79191)
+[2023-12-08 13:29:53 +0100] [79182] [INFO] Worker exiting (pid: 79182)
+[2023-12-08 13:29:53 +0100] [79192] [INFO] Worker exiting (pid: 79192)
+[2023-12-08 13:29:53 +0100] [79161] [INFO] Shutting down: Master
+[2023-12-08 13:29:56 +0100] [79249] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:29:56 +0100] [79249] [INFO] Listening at: http://127.0.0.1:8000 (79249)
+[2023-12-08 13:29:56 +0100] [79249] [INFO] Using worker: sync
+[2023-12-08 13:29:56 +0100] [79257] [INFO] Booting worker with pid: 79257
+[2023-12-08 13:29:56 +0100] [79258] [INFO] Booting worker with pid: 79258
+[2023-12-08 13:29:56 +0100] [79259] [INFO] Booting worker with pid: 79259
+[2023-12-08 13:29:56 +0100] [79260] [INFO] Booting worker with pid: 79260
+[2023-12-08 13:29:56 +0100] [79261] [INFO] Booting worker with pid: 79261
+[2023-12-08 13:29:56 +0100] [79262] [INFO] Booting worker with pid: 79262
+[2023-12-08 13:29:56 +0100] [79263] [INFO] Booting worker with pid: 79263
+[2023-12-08 13:29:56 +0100] [79264] [INFO] Booting worker with pid: 79264
+[2023-12-08 13:29:56 +0100] [79265] [INFO] Booting worker with pid: 79265
+[2023-12-08 13:29:56 +0100] [79266] [INFO] Booting worker with pid: 79266
+[2023-12-08 13:29:56 +0100] [79267] [INFO] Booting worker with pid: 79267
+[2023-12-08 13:29:56 +0100] [79268] [INFO] Booting worker with pid: 79268
+[2023-12-08 13:29:56 +0100] [79269] [INFO] Booting worker with pid: 79269
+[2023-12-08 13:29:56 +0100] [79270] [INFO] Booting worker with pid: 79270
+[2023-12-08 13:29:56 +0100] [79271] [INFO] Booting worker with pid: 79271
+[2023-12-08 13:29:56 +0100] [79272] [INFO] Booting worker with pid: 79272
+[2023-12-08 13:29:56 +0100] [79273] [INFO] Booting worker with pid: 79273
+[2023-12-08 13:32:05 +0100] [79249] [INFO] Handling signal: term
+[2023-12-08 13:32:05 +0100] [79262] [INFO] Worker exiting (pid: 79262)
+[2023-12-08 13:32:05 +0100] [79257] [INFO] Worker exiting (pid: 79257)
+[2023-12-08 13:32:05 +0100] [79258] [INFO] Worker exiting (pid: 79258)
+[2023-12-08 13:32:05 +0100] [79260] [INFO] Worker exiting (pid: 79260)
+[2023-12-08 13:32:05 +0100] [79259] [INFO] Worker exiting (pid: 79259)
+[2023-12-08 13:32:05 +0100] [79261] [INFO] Worker exiting (pid: 79261)
+[2023-12-08 13:32:05 +0100] [79263] [INFO] Worker exiting (pid: 79263)
+[2023-12-08 13:32:05 +0100] [79270] [INFO] Worker exiting (pid: 79270)
+[2023-12-08 13:32:05 +0100] [79271] [INFO] Worker exiting (pid: 79271)
+[2023-12-08 13:32:05 +0100] [79268] [INFO] Worker exiting (pid: 79268)
+[2023-12-08 13:32:05 +0100] [79272] [INFO] Worker exiting (pid: 79272)
+[2023-12-08 13:32:05 +0100] [79273] [INFO] Worker exiting (pid: 79273)
+[2023-12-08 13:32:05 +0100] [79264] [INFO] Worker exiting (pid: 79264)
+[2023-12-08 13:32:05 +0100] [79266] [INFO] Worker exiting (pid: 79266)
+[2023-12-08 13:32:05 +0100] [79267] [INFO] Worker exiting (pid: 79267)
+[2023-12-08 13:32:05 +0100] [79265] [INFO] Worker exiting (pid: 79265)
+[2023-12-08 13:32:05 +0100] [79269] [INFO] Worker exiting (pid: 79269)
+[2023-12-08 13:32:05 +0100] [79249] [INFO] Shutting down: Master
+[2023-12-08 13:32:08 +0100] [79589] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:32:08 +0100] [79589] [INFO] Listening at: http://127.0.0.1:8000 (79589)
+[2023-12-08 13:32:08 +0100] [79589] [INFO] Using worker: sync
+[2023-12-08 13:32:08 +0100] [79597] [INFO] Booting worker with pid: 79597
+[2023-12-08 13:32:08 +0100] [79598] [INFO] Booting worker with pid: 79598
+[2023-12-08 13:32:08 +0100] [79599] [INFO] Booting worker with pid: 79599
+[2023-12-08 13:32:08 +0100] [79600] [INFO] Booting worker with pid: 79600
+[2023-12-08 13:32:08 +0100] [79601] [INFO] Booting worker with pid: 79601
+[2023-12-08 13:32:08 +0100] [79602] [INFO] Booting worker with pid: 79602
+[2023-12-08 13:32:08 +0100] [79603] [INFO] Booting worker with pid: 79603
+[2023-12-08 13:32:08 +0100] [79604] [INFO] Booting worker with pid: 79604
+[2023-12-08 13:32:08 +0100] [79605] [INFO] Booting worker with pid: 79605
+[2023-12-08 13:32:08 +0100] [79606] [INFO] Booting worker with pid: 79606
+[2023-12-08 13:32:08 +0100] [79607] [INFO] Booting worker with pid: 79607
+[2023-12-08 13:32:08 +0100] [79608] [INFO] Booting worker with pid: 79608
+[2023-12-08 13:32:09 +0100] [79609] [INFO] Booting worker with pid: 79609
+[2023-12-08 13:32:09 +0100] [79610] [INFO] Booting worker with pid: 79610
+[2023-12-08 13:32:09 +0100] [79611] [INFO] Booting worker with pid: 79611
+[2023-12-08 13:32:09 +0100] [79612] [INFO] Booting worker with pid: 79612
+[2023-12-08 13:32:09 +0100] [79613] [INFO] Booting worker with pid: 79613
+[2023-12-08 13:35:03 +0100] [79589] [INFO] Handling signal: term
+[2023-12-08 13:35:03 +0100] [79600] [INFO] Worker exiting (pid: 79600)
+[2023-12-08 13:35:03 +0100] [79603] [INFO] Worker exiting (pid: 79603)
+[2023-12-08 13:35:03 +0100] [79602] [INFO] Worker exiting (pid: 79602)
+[2023-12-08 13:35:03 +0100] [79597] [INFO] Worker exiting (pid: 79597)
+[2023-12-08 13:35:03 +0100] [79598] [INFO] Worker exiting (pid: 79598)
+[2023-12-08 13:35:03 +0100] [79599] [INFO] Worker exiting (pid: 79599)
+[2023-12-08 13:35:03 +0100] [79601] [INFO] Worker exiting (pid: 79601)
+[2023-12-08 13:35:03 +0100] [79604] [INFO] Worker exiting (pid: 79604)
+[2023-12-08 13:35:03 +0100] [79605] [INFO] Worker exiting (pid: 79605)
+[2023-12-08 13:35:03 +0100] [79610] [INFO] Worker exiting (pid: 79610)
+[2023-12-08 13:35:03 +0100] [79606] [INFO] Worker exiting (pid: 79606)
+[2023-12-08 13:35:03 +0100] [79608] [INFO] Worker exiting (pid: 79608)
+[2023-12-08 13:35:03 +0100] [79607] [INFO] Worker exiting (pid: 79607)
+[2023-12-08 13:35:03 +0100] [79611] [INFO] Worker exiting (pid: 79611)
+[2023-12-08 13:35:03 +0100] [79612] [INFO] Worker exiting (pid: 79612)
+[2023-12-08 13:35:03 +0100] [79609] [INFO] Worker exiting (pid: 79609)
+[2023-12-08 13:35:03 +0100] [79613] [INFO] Worker exiting (pid: 79613)
+[2023-12-08 13:35:03 +0100] [79589] [INFO] Shutting down: Master
+[2023-12-08 13:35:06 +0100] [79703] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:35:06 +0100] [79703] [INFO] Listening at: http://127.0.0.1:8000 (79703)
+[2023-12-08 13:35:06 +0100] [79703] [INFO] Using worker: sync
+[2023-12-08 13:35:06 +0100] [79711] [INFO] Booting worker with pid: 79711
+[2023-12-08 13:35:06 +0100] [79712] [INFO] Booting worker with pid: 79712
+[2023-12-08 13:35:06 +0100] [79713] [INFO] Booting worker with pid: 79713
+[2023-12-08 13:35:06 +0100] [79714] [INFO] Booting worker with pid: 79714
+[2023-12-08 13:35:06 +0100] [79715] [INFO] Booting worker with pid: 79715
+[2023-12-08 13:35:06 +0100] [79716] [INFO] Booting worker with pid: 79716
+[2023-12-08 13:35:06 +0100] [79717] [INFO] Booting worker with pid: 79717
+[2023-12-08 13:35:06 +0100] [79718] [INFO] Booting worker with pid: 79718
+[2023-12-08 13:35:06 +0100] [79719] [INFO] Booting worker with pid: 79719
+[2023-12-08 13:35:06 +0100] [79720] [INFO] Booting worker with pid: 79720
+[2023-12-08 13:35:06 +0100] [79721] [INFO] Booting worker with pid: 79721
+[2023-12-08 13:35:06 +0100] [79722] [INFO] Booting worker with pid: 79722
+[2023-12-08 13:35:07 +0100] [79723] [INFO] Booting worker with pid: 79723
+[2023-12-08 13:35:07 +0100] [79724] [INFO] Booting worker with pid: 79724
+[2023-12-08 13:35:07 +0100] [79725] [INFO] Booting worker with pid: 79725
+[2023-12-08 13:35:07 +0100] [79726] [INFO] Booting worker with pid: 79726
+[2023-12-08 13:35:07 +0100] [79727] [INFO] Booting worker with pid: 79727
+[2023-12-08 13:36:14 +0100] [79703] [INFO] Handling signal: term
+[2023-12-08 13:36:14 +0100] [79717] [INFO] Worker exiting (pid: 79717)
+[2023-12-08 13:36:14 +0100] [79716] [INFO] Worker exiting (pid: 79716)
+[2023-12-08 13:36:14 +0100] [79712] [INFO] Worker exiting (pid: 79712)
+[2023-12-08 13:36:14 +0100] [79713] [INFO] Worker exiting (pid: 79713)
+[2023-12-08 13:36:14 +0100] [79715] [INFO] Worker exiting (pid: 79715)
+[2023-12-08 13:36:14 +0100] [79714] [INFO] Worker exiting (pid: 79714)
+[2023-12-08 13:36:14 +0100] [79711] [INFO] Worker exiting (pid: 79711)
+[2023-12-08 13:36:14 +0100] [79724] [INFO] Worker exiting (pid: 79724)
+[2023-12-08 13:36:14 +0100] [79718] [INFO] Worker exiting (pid: 79718)
+[2023-12-08 13:36:14 +0100] [79725] [INFO] Worker exiting (pid: 79725)
+[2023-12-08 13:36:14 +0100] [79722] [INFO] Worker exiting (pid: 79722)
+[2023-12-08 13:36:14 +0100] [79726] [INFO] Worker exiting (pid: 79726)
+[2023-12-08 13:36:14 +0100] [79719] [INFO] Worker exiting (pid: 79719)
+[2023-12-08 13:36:14 +0100] [79720] [INFO] Worker exiting (pid: 79720)
+[2023-12-08 13:36:14 +0100] [79721] [INFO] Worker exiting (pid: 79721)
+[2023-12-08 13:36:14 +0100] [79727] [INFO] Worker exiting (pid: 79727)
+[2023-12-08 13:36:14 +0100] [79723] [INFO] Worker exiting (pid: 79723)
+[2023-12-08 13:36:15 +0100] [79703] [INFO] Shutting down: Master
+[2023-12-08 13:36:17 +0100] [79869] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:36:17 +0100] [79869] [INFO] Listening at: http://127.0.0.1:8000 (79869)
+[2023-12-08 13:36:17 +0100] [79869] [INFO] Using worker: sync
+[2023-12-08 13:36:17 +0100] [79877] [INFO] Booting worker with pid: 79877
+[2023-12-08 13:36:17 +0100] [79878] [INFO] Booting worker with pid: 79878
+[2023-12-08 13:36:18 +0100] [79879] [INFO] Booting worker with pid: 79879
+[2023-12-08 13:36:18 +0100] [79880] [INFO] Booting worker with pid: 79880
+[2023-12-08 13:36:18 +0100] [79881] [INFO] Booting worker with pid: 79881
+[2023-12-08 13:36:18 +0100] [79882] [INFO] Booting worker with pid: 79882
+[2023-12-08 13:36:18 +0100] [79883] [INFO] Booting worker with pid: 79883
+[2023-12-08 13:36:18 +0100] [79884] [INFO] Booting worker with pid: 79884
+[2023-12-08 13:36:18 +0100] [79885] [INFO] Booting worker with pid: 79885
+[2023-12-08 13:36:18 +0100] [79886] [INFO] Booting worker with pid: 79886
+[2023-12-08 13:36:18 +0100] [79887] [INFO] Booting worker with pid: 79887
+[2023-12-08 13:36:18 +0100] [79888] [INFO] Booting worker with pid: 79888
+[2023-12-08 13:36:18 +0100] [79889] [INFO] Booting worker with pid: 79889
+[2023-12-08 13:36:18 +0100] [79890] [INFO] Booting worker with pid: 79890
+[2023-12-08 13:36:18 +0100] [79891] [INFO] Booting worker with pid: 79891
+[2023-12-08 13:36:18 +0100] [79892] [INFO] Booting worker with pid: 79892
+[2023-12-08 13:36:18 +0100] [79893] [INFO] Booting worker with pid: 79893
+[2023-12-08 13:37:52 +0100] [79869] [INFO] Handling signal: term
+[2023-12-08 13:37:52 +0100] [79880] [INFO] Worker exiting (pid: 79880)
+[2023-12-08 13:37:52 +0100] [79883] [INFO] Worker exiting (pid: 79883)
+[2023-12-08 13:37:52 +0100] [79881] [INFO] Worker exiting (pid: 79881)
+[2023-12-08 13:37:52 +0100] [79877] [INFO] Worker exiting (pid: 79877)
+[2023-12-08 13:37:52 +0100] [79878] [INFO] Worker exiting (pid: 79878)
+[2023-12-08 13:37:52 +0100] [79882] [INFO] Worker exiting (pid: 79882)
+[2023-12-08 13:37:52 +0100] [79879] [INFO] Worker exiting (pid: 79879)
+[2023-12-08 13:37:52 +0100] [79884] [INFO] Worker exiting (pid: 79884)
+[2023-12-08 13:37:52 +0100] [79891] [INFO] Worker exiting (pid: 79891)
+[2023-12-08 13:37:52 +0100] [79885] [INFO] Worker exiting (pid: 79885)
+[2023-12-08 13:37:52 +0100] [79889] [INFO] Worker exiting (pid: 79889)
+[2023-12-08 13:37:52 +0100] [79886] [INFO] Worker exiting (pid: 79886)
+[2023-12-08 13:37:52 +0100] [79887] [INFO] Worker exiting (pid: 79887)
+[2023-12-08 13:37:52 +0100] [79888] [INFO] Worker exiting (pid: 79888)
+[2023-12-08 13:37:52 +0100] [79892] [INFO] Worker exiting (pid: 79892)
+[2023-12-08 13:37:52 +0100] [79890] [INFO] Worker exiting (pid: 79890)
+[2023-12-08 13:37:52 +0100] [79893] [INFO] Worker exiting (pid: 79893)
+[2023-12-08 13:37:52 +0100] [79869] [INFO] Shutting down: Master
+[2023-12-08 13:37:55 +0100] [80089] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:37:55 +0100] [80089] [INFO] Listening at: http://127.0.0.1:8000 (80089)
+[2023-12-08 13:37:55 +0100] [80089] [INFO] Using worker: sync
+[2023-12-08 13:37:55 +0100] [80097] [INFO] Booting worker with pid: 80097
+[2023-12-08 13:37:55 +0100] [80098] [INFO] Booting worker with pid: 80098
+[2023-12-08 13:37:55 +0100] [80099] [INFO] Booting worker with pid: 80099
+[2023-12-08 13:37:55 +0100] [80100] [INFO] Booting worker with pid: 80100
+[2023-12-08 13:37:55 +0100] [80101] [INFO] Booting worker with pid: 80101
+[2023-12-08 13:37:55 +0100] [80102] [INFO] Booting worker with pid: 80102
+[2023-12-08 13:37:55 +0100] [80103] [INFO] Booting worker with pid: 80103
+[2023-12-08 13:37:55 +0100] [80104] [INFO] Booting worker with pid: 80104
+[2023-12-08 13:37:55 +0100] [80105] [INFO] Booting worker with pid: 80105
+[2023-12-08 13:37:55 +0100] [80106] [INFO] Booting worker with pid: 80106
+[2023-12-08 13:37:55 +0100] [80107] [INFO] Booting worker with pid: 80107
+[2023-12-08 13:37:55 +0100] [80108] [INFO] Booting worker with pid: 80108
+[2023-12-08 13:37:55 +0100] [80109] [INFO] Booting worker with pid: 80109
+[2023-12-08 13:37:55 +0100] [80110] [INFO] Booting worker with pid: 80110
+[2023-12-08 13:37:55 +0100] [80111] [INFO] Booting worker with pid: 80111
+[2023-12-08 13:37:55 +0100] [80112] [INFO] Booting worker with pid: 80112
+[2023-12-08 13:37:55 +0100] [80113] [INFO] Booting worker with pid: 80113
+[2023-12-08 13:38:02 +0100] [80089] [INFO] Handling signal: term
+[2023-12-08 13:38:02 +0100] [80098] [INFO] Worker exiting (pid: 80098)
+[2023-12-08 13:38:02 +0100] [80101] [INFO] Worker exiting (pid: 80101)
+[2023-12-08 13:38:02 +0100] [80099] [INFO] Worker exiting (pid: 80099)
+[2023-12-08 13:38:02 +0100] [80100] [INFO] Worker exiting (pid: 80100)
+[2023-12-08 13:38:02 +0100] [80105] [INFO] Worker exiting (pid: 80105)
+[2023-12-08 13:38:02 +0100] [80097] [INFO] Worker exiting (pid: 80097)
+[2023-12-08 13:38:02 +0100] [80102] [INFO] Worker exiting (pid: 80102)
+[2023-12-08 13:38:02 +0100] [80104] [INFO] Worker exiting (pid: 80104)
+[2023-12-08 13:38:02 +0100] [80111] [INFO] Worker exiting (pid: 80111)
+[2023-12-08 13:38:02 +0100] [80107] [INFO] Worker exiting (pid: 80107)
+[2023-12-08 13:38:02 +0100] [80103] [INFO] Worker exiting (pid: 80103)
+[2023-12-08 13:38:02 +0100] [80113] [INFO] Worker exiting (pid: 80113)
+[2023-12-08 13:38:02 +0100] [80109] [INFO] Worker exiting (pid: 80109)
+[2023-12-08 13:38:02 +0100] [80106] [INFO] Worker exiting (pid: 80106)
+[2023-12-08 13:38:02 +0100] [80112] [INFO] Worker exiting (pid: 80112)
+[2023-12-08 13:38:02 +0100] [80110] [INFO] Worker exiting (pid: 80110)
+[2023-12-08 13:38:02 +0100] [80108] [INFO] Worker exiting (pid: 80108)
+[2023-12-08 13:38:02 +0100] [80089] [INFO] Shutting down: Master
+[2023-12-08 13:38:05 +0100] [80147] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:38:05 +0100] [80147] [INFO] Listening at: http://127.0.0.1:8000 (80147)
+[2023-12-08 13:38:05 +0100] [80147] [INFO] Using worker: sync
+[2023-12-08 13:38:05 +0100] [80155] [INFO] Booting worker with pid: 80155
+[2023-12-08 13:38:05 +0100] [80156] [INFO] Booting worker with pid: 80156
+[2023-12-08 13:38:05 +0100] [80157] [INFO] Booting worker with pid: 80157
+[2023-12-08 13:38:05 +0100] [80158] [INFO] Booting worker with pid: 80158
+[2023-12-08 13:38:05 +0100] [80159] [INFO] Booting worker with pid: 80159
+[2023-12-08 13:38:05 +0100] [80160] [INFO] Booting worker with pid: 80160
+[2023-12-08 13:38:05 +0100] [80161] [INFO] Booting worker with pid: 80161
+[2023-12-08 13:38:05 +0100] [80162] [INFO] Booting worker with pid: 80162
+[2023-12-08 13:38:05 +0100] [80163] [INFO] Booting worker with pid: 80163
+[2023-12-08 13:38:05 +0100] [80164] [INFO] Booting worker with pid: 80164
+[2023-12-08 13:38:05 +0100] [80165] [INFO] Booting worker with pid: 80165
+[2023-12-08 13:38:05 +0100] [80166] [INFO] Booting worker with pid: 80166
+[2023-12-08 13:38:05 +0100] [80167] [INFO] Booting worker with pid: 80167
+[2023-12-08 13:38:06 +0100] [80168] [INFO] Booting worker with pid: 80168
+[2023-12-08 13:38:06 +0100] [80169] [INFO] Booting worker with pid: 80169
+[2023-12-08 13:38:06 +0100] [80170] [INFO] Booting worker with pid: 80170
+[2023-12-08 13:38:06 +0100] [80171] [INFO] Booting worker with pid: 80171
+[2023-12-08 13:38:38 +0100] [80147] [INFO] Handling signal: term
+[2023-12-08 13:38:38 +0100] [80161] [INFO] Worker exiting (pid: 80161)
+[2023-12-08 13:38:38 +0100] [80160] [INFO] Worker exiting (pid: 80160)
+[2023-12-08 13:38:38 +0100] [80155] [INFO] Worker exiting (pid: 80155)
+[2023-12-08 13:38:38 +0100] [80156] [INFO] Worker exiting (pid: 80156)
+[2023-12-08 13:38:38 +0100] [80159] [INFO] Worker exiting (pid: 80159)
+[2023-12-08 13:38:38 +0100] [80158] [INFO] Worker exiting (pid: 80158)
+[2023-12-08 13:38:38 +0100] [80157] [INFO] Worker exiting (pid: 80157)
+[2023-12-08 13:38:38 +0100] [80162] [INFO] Worker exiting (pid: 80162)
+[2023-12-08 13:38:38 +0100] [80164] [INFO] Worker exiting (pid: 80164)
+[2023-12-08 13:38:38 +0100] [80163] [INFO] Worker exiting (pid: 80163)
+[2023-12-08 13:38:38 +0100] [80167] [INFO] Worker exiting (pid: 80167)
+[2023-12-08 13:38:38 +0100] [80169] [INFO] Worker exiting (pid: 80169)
+[2023-12-08 13:38:38 +0100] [80166] [INFO] Worker exiting (pid: 80166)
+[2023-12-08 13:38:38 +0100] [80165] [INFO] Worker exiting (pid: 80165)
+[2023-12-08 13:38:38 +0100] [80170] [INFO] Worker exiting (pid: 80170)
+[2023-12-08 13:38:38 +0100] [80168] [INFO] Worker exiting (pid: 80168)
+[2023-12-08 13:38:38 +0100] [80171] [INFO] Worker exiting (pid: 80171)
+[2023-12-08 13:38:38 +0100] [80147] [INFO] Shutting down: Master
+[2023-12-08 13:38:41 +0100] [80361] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:38:41 +0100] [80361] [INFO] Listening at: http://127.0.0.1:8000 (80361)
+[2023-12-08 13:38:41 +0100] [80361] [INFO] Using worker: sync
+[2023-12-08 13:38:41 +0100] [80369] [INFO] Booting worker with pid: 80369
+[2023-12-08 13:38:41 +0100] [80370] [INFO] Booting worker with pid: 80370
+[2023-12-08 13:38:41 +0100] [80371] [INFO] Booting worker with pid: 80371
+[2023-12-08 13:38:41 +0100] [80372] [INFO] Booting worker with pid: 80372
+[2023-12-08 13:38:41 +0100] [80373] [INFO] Booting worker with pid: 80373
+[2023-12-08 13:38:41 +0100] [80374] [INFO] Booting worker with pid: 80374
+[2023-12-08 13:38:41 +0100] [80375] [INFO] Booting worker with pid: 80375
+[2023-12-08 13:38:41 +0100] [80376] [INFO] Booting worker with pid: 80376
+[2023-12-08 13:38:41 +0100] [80377] [INFO] Booting worker with pid: 80377
+[2023-12-08 13:38:41 +0100] [80378] [INFO] Booting worker with pid: 80378
+[2023-12-08 13:38:41 +0100] [80379] [INFO] Booting worker with pid: 80379
+[2023-12-08 13:38:41 +0100] [80380] [INFO] Booting worker with pid: 80380
+[2023-12-08 13:38:41 +0100] [80381] [INFO] Booting worker with pid: 80381
+[2023-12-08 13:38:41 +0100] [80382] [INFO] Booting worker with pid: 80382
+[2023-12-08 13:38:41 +0100] [80383] [INFO] Booting worker with pid: 80383
+[2023-12-08 13:38:42 +0100] [80384] [INFO] Booting worker with pid: 80384
+[2023-12-08 13:38:42 +0100] [80385] [INFO] Booting worker with pid: 80385
+[2023-12-08 13:40:39 +0100] [80361] [INFO] Handling signal: term
+[2023-12-08 13:40:39 +0100] [80370] [INFO] Worker exiting (pid: 80370)
+[2023-12-08 13:40:39 +0100] [80369] [INFO] Worker exiting (pid: 80369)
+[2023-12-08 13:40:39 +0100] [80374] [INFO] Worker exiting (pid: 80374)
+[2023-12-08 13:40:39 +0100] [80371] [INFO] Worker exiting (pid: 80371)
+[2023-12-08 13:40:39 +0100] [80373] [INFO] Worker exiting (pid: 80373)
+[2023-12-08 13:40:39 +0100] [80372] [INFO] Worker exiting (pid: 80372)
+[2023-12-08 13:40:39 +0100] [80375] [INFO] Worker exiting (pid: 80375)
+[2023-12-08 13:40:39 +0100] [80377] [INFO] Worker exiting (pid: 80377)
+[2023-12-08 13:40:39 +0100] [80376] [INFO] Worker exiting (pid: 80376)
+[2023-12-08 13:40:39 +0100] [80383] [INFO] Worker exiting (pid: 80383)
+[2023-12-08 13:40:39 +0100] [80378] [INFO] Worker exiting (pid: 80378)
+[2023-12-08 13:40:39 +0100] [80379] [INFO] Worker exiting (pid: 80379)
+[2023-12-08 13:40:39 +0100] [80385] [INFO] Worker exiting (pid: 80385)
+[2023-12-08 13:40:39 +0100] [80381] [INFO] Worker exiting (pid: 80381)
+[2023-12-08 13:40:39 +0100] [80380] [INFO] Worker exiting (pid: 80380)
+[2023-12-08 13:40:39 +0100] [80382] [INFO] Worker exiting (pid: 80382)
+[2023-12-08 13:40:39 +0100] [80384] [INFO] Worker exiting (pid: 80384)
+[2023-12-08 13:40:39 +0100] [80361] [INFO] Shutting down: Master
+[2023-12-08 13:40:42 +0100] [80615] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:40:42 +0100] [80615] [INFO] Listening at: http://127.0.0.1:8000 (80615)
+[2023-12-08 13:40:42 +0100] [80615] [INFO] Using worker: sync
+[2023-12-08 13:40:42 +0100] [80623] [INFO] Booting worker with pid: 80623
+[2023-12-08 13:40:42 +0100] [80624] [INFO] Booting worker with pid: 80624
+[2023-12-08 13:40:42 +0100] [80625] [INFO] Booting worker with pid: 80625
+[2023-12-08 13:40:42 +0100] [80626] [INFO] Booting worker with pid: 80626
+[2023-12-08 13:40:42 +0100] [80627] [INFO] Booting worker with pid: 80627
+[2023-12-08 13:40:42 +0100] [80628] [INFO] Booting worker with pid: 80628
+[2023-12-08 13:40:42 +0100] [80629] [INFO] Booting worker with pid: 80629
+[2023-12-08 13:40:42 +0100] [80630] [INFO] Booting worker with pid: 80630
+[2023-12-08 13:40:42 +0100] [80631] [INFO] Booting worker with pid: 80631
+[2023-12-08 13:40:42 +0100] [80632] [INFO] Booting worker with pid: 80632
+[2023-12-08 13:40:42 +0100] [80633] [INFO] Booting worker with pid: 80633
+[2023-12-08 13:40:42 +0100] [80634] [INFO] Booting worker with pid: 80634
+[2023-12-08 13:40:42 +0100] [80635] [INFO] Booting worker with pid: 80635
+[2023-12-08 13:40:42 +0100] [80636] [INFO] Booting worker with pid: 80636
+[2023-12-08 13:40:42 +0100] [80637] [INFO] Booting worker with pid: 80637
+[2023-12-08 13:40:42 +0100] [80638] [INFO] Booting worker with pid: 80638
+[2023-12-08 13:40:42 +0100] [80639] [INFO] Booting worker with pid: 80639
+[2023-12-08 13:42:51 +0100] [80615] [INFO] Handling signal: term
+[2023-12-08 13:42:51 +0100] [80625] [INFO] Worker exiting (pid: 80625)
+[2023-12-08 13:42:51 +0100] [80627] [INFO] Worker exiting (pid: 80627)
+[2023-12-08 13:42:51 +0100] [80626] [INFO] Worker exiting (pid: 80626)
+[2023-12-08 13:42:51 +0100] [80628] [INFO] Worker exiting (pid: 80628)
+[2023-12-08 13:42:51 +0100] [80624] [INFO] Worker exiting (pid: 80624)
+[2023-12-08 13:42:51 +0100] [80623] [INFO] Worker exiting (pid: 80623)
+[2023-12-08 13:42:51 +0100] [80629] [INFO] Worker exiting (pid: 80629)
+[2023-12-08 13:42:51 +0100] [80631] [INFO] Worker exiting (pid: 80631)
+[2023-12-08 13:42:51 +0100] [80630] [INFO] Worker exiting (pid: 80630)
+[2023-12-08 13:42:51 +0100] [80634] [INFO] Worker exiting (pid: 80634)
+[2023-12-08 13:42:51 +0100] [80633] [INFO] Worker exiting (pid: 80633)
+[2023-12-08 13:42:51 +0100] [80632] [INFO] Worker exiting (pid: 80632)
+[2023-12-08 13:42:51 +0100] [80635] [INFO] Worker exiting (pid: 80635)
+[2023-12-08 13:42:51 +0100] [80636] [INFO] Worker exiting (pid: 80636)
+[2023-12-08 13:42:51 +0100] [80637] [INFO] Worker exiting (pid: 80637)
+[2023-12-08 13:42:51 +0100] [80638] [INFO] Worker exiting (pid: 80638)
+[2023-12-08 13:42:51 +0100] [80639] [INFO] Worker exiting (pid: 80639)
+[2023-12-08 13:42:51 +0100] [80615] [INFO] Shutting down: Master
+[2023-12-08 13:42:54 +0100] [80742] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:42:54 +0100] [80742] [INFO] Listening at: http://127.0.0.1:8000 (80742)
+[2023-12-08 13:42:54 +0100] [80742] [INFO] Using worker: sync
+[2023-12-08 13:42:54 +0100] [80750] [INFO] Booting worker with pid: 80750
+[2023-12-08 13:42:54 +0100] [80751] [INFO] Booting worker with pid: 80751
+[2023-12-08 13:42:54 +0100] [80752] [INFO] Booting worker with pid: 80752
+[2023-12-08 13:42:54 +0100] [80753] [INFO] Booting worker with pid: 80753
+[2023-12-08 13:42:54 +0100] [80754] [INFO] Booting worker with pid: 80754
+[2023-12-08 13:42:54 +0100] [80755] [INFO] Booting worker with pid: 80755
+[2023-12-08 13:42:54 +0100] [80756] [INFO] Booting worker with pid: 80756
+[2023-12-08 13:42:55 +0100] [80757] [INFO] Booting worker with pid: 80757
+[2023-12-08 13:42:55 +0100] [80758] [INFO] Booting worker with pid: 80758
+[2023-12-08 13:42:55 +0100] [80759] [INFO] Booting worker with pid: 80759
+[2023-12-08 13:42:55 +0100] [80760] [INFO] Booting worker with pid: 80760
+[2023-12-08 13:42:55 +0100] [80761] [INFO] Booting worker with pid: 80761
+[2023-12-08 13:42:55 +0100] [80762] [INFO] Booting worker with pid: 80762
+[2023-12-08 13:42:55 +0100] [80763] [INFO] Booting worker with pid: 80763
+[2023-12-08 13:42:55 +0100] [80764] [INFO] Booting worker with pid: 80764
+[2023-12-08 13:42:55 +0100] [80765] [INFO] Booting worker with pid: 80765
+[2023-12-08 13:42:55 +0100] [80766] [INFO] Booting worker with pid: 80766
+[2023-12-08 13:43:07 +0100] [80742] [INFO] Handling signal: term
+[2023-12-08 13:43:07 +0100] [80756] [INFO] Worker exiting (pid: 80756)
+[2023-12-08 13:43:07 +0100] [80755] [INFO] Worker exiting (pid: 80755)
+[2023-12-08 13:43:07 +0100] [80752] [INFO] Worker exiting (pid: 80752)
+[2023-12-08 13:43:07 +0100] [80753] [INFO] Worker exiting (pid: 80753)
+[2023-12-08 13:43:07 +0100] [80751] [INFO] Worker exiting (pid: 80751)
+[2023-12-08 13:43:07 +0100] [80754] [INFO] Worker exiting (pid: 80754)
+[2023-12-08 13:43:07 +0100] [80750] [INFO] Worker exiting (pid: 80750)
+[2023-12-08 13:43:07 +0100] [80759] [INFO] Worker exiting (pid: 80759)
+[2023-12-08 13:43:07 +0100] [80761] [INFO] Worker exiting (pid: 80761)
+[2023-12-08 13:43:07 +0100] [80762] [INFO] Worker exiting (pid: 80762)
+[2023-12-08 13:43:07 +0100] [80760] [INFO] Worker exiting (pid: 80760)
+[2023-12-08 13:43:07 +0100] [80758] [INFO] Worker exiting (pid: 80758)
+[2023-12-08 13:43:07 +0100] [80763] [INFO] Worker exiting (pid: 80763)
+[2023-12-08 13:43:07 +0100] [80764] [INFO] Worker exiting (pid: 80764)
+[2023-12-08 13:43:07 +0100] [80757] [INFO] Worker exiting (pid: 80757)
+[2023-12-08 13:43:07 +0100] [80766] [INFO] Worker exiting (pid: 80766)
+[2023-12-08 13:43:07 +0100] [80765] [INFO] Worker exiting (pid: 80765)
+[2023-12-08 13:43:07 +0100] [80742] [INFO] Shutting down: Master
+[2023-12-08 13:43:10 +0100] [80799] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:43:10 +0100] [80799] [INFO] Listening at: http://127.0.0.1:8000 (80799)
+[2023-12-08 13:43:10 +0100] [80799] [INFO] Using worker: sync
+[2023-12-08 13:43:10 +0100] [80807] [INFO] Booting worker with pid: 80807
+[2023-12-08 13:43:10 +0100] [80808] [INFO] Booting worker with pid: 80808
+[2023-12-08 13:43:10 +0100] [80809] [INFO] Booting worker with pid: 80809
+[2023-12-08 13:43:10 +0100] [80810] [INFO] Booting worker with pid: 80810
+[2023-12-08 13:43:10 +0100] [80811] [INFO] Booting worker with pid: 80811
+[2023-12-08 13:43:10 +0100] [80812] [INFO] Booting worker with pid: 80812
+[2023-12-08 13:43:10 +0100] [80813] [INFO] Booting worker with pid: 80813
+[2023-12-08 13:43:10 +0100] [80814] [INFO] Booting worker with pid: 80814
+[2023-12-08 13:43:10 +0100] [80815] [INFO] Booting worker with pid: 80815
+[2023-12-08 13:43:11 +0100] [80816] [INFO] Booting worker with pid: 80816
+[2023-12-08 13:43:11 +0100] [80817] [INFO] Booting worker with pid: 80817
+[2023-12-08 13:43:11 +0100] [80818] [INFO] Booting worker with pid: 80818
+[2023-12-08 13:43:11 +0100] [80819] [INFO] Booting worker with pid: 80819
+[2023-12-08 13:43:11 +0100] [80820] [INFO] Booting worker with pid: 80820
+[2023-12-08 13:43:11 +0100] [80821] [INFO] Booting worker with pid: 80821
+[2023-12-08 13:43:11 +0100] [80822] [INFO] Booting worker with pid: 80822
+[2023-12-08 13:43:11 +0100] [80823] [INFO] Booting worker with pid: 80823
+[2023-12-08 13:43:17 +0100] [80799] [INFO] Handling signal: term
+[2023-12-08 13:43:17 +0100] [80811] [INFO] Worker exiting (pid: 80811)
+[2023-12-08 13:43:17 +0100] [80813] [INFO] Worker exiting (pid: 80813)
+[2023-12-08 13:43:17 +0100] [80808] [INFO] Worker exiting (pid: 80808)
+[2023-12-08 13:43:17 +0100] [80807] [INFO] Worker exiting (pid: 80807)
+[2023-12-08 13:43:17 +0100] [80810] [INFO] Worker exiting (pid: 80810)
+[2023-12-08 13:43:17 +0100] [80809] [INFO] Worker exiting (pid: 80809)
+[2023-12-08 13:43:17 +0100] [80812] [INFO] Worker exiting (pid: 80812)
+[2023-12-08 13:43:17 +0100] [80815] [INFO] Worker exiting (pid: 80815)
+[2023-12-08 13:43:17 +0100] [80820] [INFO] Worker exiting (pid: 80820)
+[2023-12-08 13:43:17 +0100] [80816] [INFO] Worker exiting (pid: 80816)
+[2023-12-08 13:43:17 +0100] [80814] [INFO] Worker exiting (pid: 80814)
+[2023-12-08 13:43:17 +0100] [80822] [INFO] Worker exiting (pid: 80822)
+[2023-12-08 13:43:17 +0100] [80823] [INFO] Worker exiting (pid: 80823)
+[2023-12-08 13:43:17 +0100] [80818] [INFO] Worker exiting (pid: 80818)
+[2023-12-08 13:43:17 +0100] [80819] [INFO] Worker exiting (pid: 80819)
+[2023-12-08 13:43:17 +0100] [80817] [INFO] Worker exiting (pid: 80817)
+[2023-12-08 13:43:17 +0100] [80821] [INFO] Worker exiting (pid: 80821)
+[2023-12-08 13:43:18 +0100] [80799] [INFO] Shutting down: Master
+[2023-12-08 13:43:19 +0100] [80836] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:43:19 +0100] [80836] [INFO] Listening at: http://127.0.0.1:8000 (80836)
+[2023-12-08 13:43:19 +0100] [80836] [INFO] Using worker: sync
+[2023-12-08 13:43:19 +0100] [80867] [INFO] Booting worker with pid: 80867
+[2023-12-08 13:43:19 +0100] [80868] [INFO] Booting worker with pid: 80868
+[2023-12-08 13:43:19 +0100] [80869] [INFO] Booting worker with pid: 80869
+[2023-12-08 13:43:19 +0100] [80870] [INFO] Booting worker with pid: 80870
+[2023-12-08 13:43:20 +0100] [80871] [INFO] Booting worker with pid: 80871
+[2023-12-08 13:43:20 +0100] [80872] [INFO] Booting worker with pid: 80872
+[2023-12-08 13:43:20 +0100] [80873] [INFO] Booting worker with pid: 80873
+[2023-12-08 13:43:20 +0100] [80874] [INFO] Booting worker with pid: 80874
+[2023-12-08 13:43:20 +0100] [80875] [INFO] Booting worker with pid: 80875
+[2023-12-08 13:43:20 +0100] [80876] [INFO] Booting worker with pid: 80876
+[2023-12-08 13:43:20 +0100] [80877] [INFO] Booting worker with pid: 80877
+[2023-12-08 13:43:20 +0100] [80878] [INFO] Booting worker with pid: 80878
+[2023-12-08 13:43:20 +0100] [80879] [INFO] Booting worker with pid: 80879
+[2023-12-08 13:43:20 +0100] [80880] [INFO] Booting worker with pid: 80880
+[2023-12-08 13:43:20 +0100] [80881] [INFO] Booting worker with pid: 80881
+[2023-12-08 13:43:20 +0100] [80888] [INFO] Booting worker with pid: 80888
+[2023-12-08 13:43:20 +0100] [80890] [INFO] Booting worker with pid: 80890
+[2023-12-08 13:43:53 +0100] [80836] [INFO] Handling signal: term
+[2023-12-08 13:43:53 +0100] [80872] [INFO] Worker exiting (pid: 80872)
+[2023-12-08 13:43:53 +0100] [80874] [INFO] Worker exiting (pid: 80874)
+[2023-12-08 13:43:53 +0100] [80871] [INFO] Worker exiting (pid: 80871)
+[2023-12-08 13:43:53 +0100] [80873] [INFO] Worker exiting (pid: 80873)
+[2023-12-08 13:43:53 +0100] [80869] [INFO] Worker exiting (pid: 80869)
+[2023-12-08 13:43:53 +0100] [80867] [INFO] Worker exiting (pid: 80867)
+[2023-12-08 13:43:53 +0100] [80870] [INFO] Worker exiting (pid: 80870)
+[2023-12-08 13:43:53 +0100] [80868] [INFO] Worker exiting (pid: 80868)
+[2023-12-08 13:43:53 +0100] [80877] [INFO] Worker exiting (pid: 80877)
+[2023-12-08 13:43:53 +0100] [80875] [INFO] Worker exiting (pid: 80875)
+[2023-12-08 13:43:53 +0100] [80881] [INFO] Worker exiting (pid: 80881)
+[2023-12-08 13:43:53 +0100] [80878] [INFO] Worker exiting (pid: 80878)
+[2023-12-08 13:43:53 +0100] [80888] [INFO] Worker exiting (pid: 80888)
+[2023-12-08 13:43:53 +0100] [80890] [INFO] Worker exiting (pid: 80890)
+[2023-12-08 13:43:53 +0100] [80876] [INFO] Worker exiting (pid: 80876)
+[2023-12-08 13:43:53 +0100] [80880] [INFO] Worker exiting (pid: 80880)
+[2023-12-08 13:43:53 +0100] [80879] [INFO] Worker exiting (pid: 80879)
+[2023-12-08 13:43:53 +0100] [80836] [INFO] Shutting down: Master
+[2023-12-08 13:43:55 +0100] [81001] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:43:55 +0100] [81001] [INFO] Listening at: http://127.0.0.1:8000 (81001)
+[2023-12-08 13:43:55 +0100] [81001] [INFO] Using worker: sync
+[2023-12-08 13:43:55 +0100] [81009] [INFO] Booting worker with pid: 81009
+[2023-12-08 13:43:55 +0100] [81010] [INFO] Booting worker with pid: 81010
+[2023-12-08 13:43:55 +0100] [81011] [INFO] Booting worker with pid: 81011
+[2023-12-08 13:43:55 +0100] [81012] [INFO] Booting worker with pid: 81012
+[2023-12-08 13:43:56 +0100] [81013] [INFO] Booting worker with pid: 81013
+[2023-12-08 13:43:56 +0100] [81014] [INFO] Booting worker with pid: 81014
+[2023-12-08 13:43:56 +0100] [81015] [INFO] Booting worker with pid: 81015
+[2023-12-08 13:43:56 +0100] [81016] [INFO] Booting worker with pid: 81016
+[2023-12-08 13:43:56 +0100] [81017] [INFO] Booting worker with pid: 81017
+[2023-12-08 13:43:56 +0100] [81018] [INFO] Booting worker with pid: 81018
+[2023-12-08 13:43:56 +0100] [81019] [INFO] Booting worker with pid: 81019
+[2023-12-08 13:43:56 +0100] [81020] [INFO] Booting worker with pid: 81020
+[2023-12-08 13:43:56 +0100] [81021] [INFO] Booting worker with pid: 81021
+[2023-12-08 13:43:56 +0100] [81022] [INFO] Booting worker with pid: 81022
+[2023-12-08 13:43:56 +0100] [81023] [INFO] Booting worker with pid: 81023
+[2023-12-08 13:43:56 +0100] [81024] [INFO] Booting worker with pid: 81024
+[2023-12-08 13:43:56 +0100] [81025] [INFO] Booting worker with pid: 81025
+[2023-12-08 13:44:11 +0100] [81001] [INFO] Handling signal: term
+[2023-12-08 13:44:11 +0100] [81012] [INFO] Worker exiting (pid: 81012)
+[2023-12-08 13:44:11 +0100] [81016] [INFO] Worker exiting (pid: 81016)
+[2023-12-08 13:44:11 +0100] [81015] [INFO] Worker exiting (pid: 81015)
+[2023-12-08 13:44:11 +0100] [81014] [INFO] Worker exiting (pid: 81014)
+[2023-12-08 13:44:11 +0100] [81009] [INFO] Worker exiting (pid: 81009)
+[2023-12-08 13:44:11 +0100] [81013] [INFO] Worker exiting (pid: 81013)
+[2023-12-08 13:44:11 +0100] [81010] [INFO] Worker exiting (pid: 81010)
+[2023-12-08 13:44:11 +0100] [81011] [INFO] Worker exiting (pid: 81011)
+[2023-12-08 13:44:11 +0100] [81022] [INFO] Worker exiting (pid: 81022)
+[2023-12-08 13:44:11 +0100] [81021] [INFO] Worker exiting (pid: 81021)
+[2023-12-08 13:44:11 +0100] [81017] [INFO] Worker exiting (pid: 81017)
+[2023-12-08 13:44:11 +0100] [81025] [INFO] Worker exiting (pid: 81025)
+[2023-12-08 13:44:11 +0100] [81019] [INFO] Worker exiting (pid: 81019)
+[2023-12-08 13:44:11 +0100] [81018] [INFO] Worker exiting (pid: 81018)
+[2023-12-08 13:44:11 +0100] [81024] [INFO] Worker exiting (pid: 81024)
+[2023-12-08 13:44:11 +0100] [81020] [INFO] Worker exiting (pid: 81020)
+[2023-12-08 13:44:11 +0100] [81023] [INFO] Worker exiting (pid: 81023)
+[2023-12-08 13:44:11 +0100] [81001] [INFO] Shutting down: Master
+[2023-12-08 13:44:14 +0100] [81108] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:44:14 +0100] [81108] [INFO] Listening at: http://127.0.0.1:8000 (81108)
+[2023-12-08 13:44:14 +0100] [81108] [INFO] Using worker: sync
+[2023-12-08 13:44:14 +0100] [81116] [INFO] Booting worker with pid: 81116
+[2023-12-08 13:44:14 +0100] [81117] [INFO] Booting worker with pid: 81117
+[2023-12-08 13:44:14 +0100] [81118] [INFO] Booting worker with pid: 81118
+[2023-12-08 13:44:14 +0100] [81119] [INFO] Booting worker with pid: 81119
+[2023-12-08 13:44:14 +0100] [81120] [INFO] Booting worker with pid: 81120
+[2023-12-08 13:44:14 +0100] [81121] [INFO] Booting worker with pid: 81121
+[2023-12-08 13:44:14 +0100] [81122] [INFO] Booting worker with pid: 81122
+[2023-12-08 13:44:14 +0100] [81123] [INFO] Booting worker with pid: 81123
+[2023-12-08 13:44:14 +0100] [81124] [INFO] Booting worker with pid: 81124
+[2023-12-08 13:44:14 +0100] [81125] [INFO] Booting worker with pid: 81125
+[2023-12-08 13:44:14 +0100] [81126] [INFO] Booting worker with pid: 81126
+[2023-12-08 13:44:14 +0100] [81127] [INFO] Booting worker with pid: 81127
+[2023-12-08 13:44:14 +0100] [81128] [INFO] Booting worker with pid: 81128
+[2023-12-08 13:44:14 +0100] [81129] [INFO] Booting worker with pid: 81129
+[2023-12-08 13:44:14 +0100] [81130] [INFO] Booting worker with pid: 81130
+[2023-12-08 13:44:15 +0100] [81138] [INFO] Booting worker with pid: 81138
+[2023-12-08 13:44:15 +0100] [81139] [INFO] Booting worker with pid: 81139
+[2023-12-08 13:44:51 +0100] [81108] [INFO] Handling signal: term
+[2023-12-08 13:44:51 +0100] [81122] [INFO] Worker exiting (pid: 81122)
+[2023-12-08 13:44:51 +0100] [81120] [INFO] Worker exiting (pid: 81120)
+[2023-12-08 13:44:51 +0100] [81118] [INFO] Worker exiting (pid: 81118)
+[2023-12-08 13:44:51 +0100] [81119] [INFO] Worker exiting (pid: 81119)
+[2023-12-08 13:44:51 +0100] [81116] [INFO] Worker exiting (pid: 81116)
+[2023-12-08 13:44:51 +0100] [81124] [INFO] Worker exiting (pid: 81124)
+[2023-12-08 13:44:51 +0100] [81117] [INFO] Worker exiting (pid: 81117)
+[2023-12-08 13:44:51 +0100] [81121] [INFO] Worker exiting (pid: 81121)
+[2023-12-08 13:44:51 +0100] [81130] [INFO] Worker exiting (pid: 81130)
+[2023-12-08 13:44:51 +0100] [81123] [INFO] Worker exiting (pid: 81123)
+[2023-12-08 13:44:51 +0100] [81125] [INFO] Worker exiting (pid: 81125)
+[2023-12-08 13:44:51 +0100] [81127] [INFO] Worker exiting (pid: 81127)
+[2023-12-08 13:44:51 +0100] [81126] [INFO] Worker exiting (pid: 81126)
+[2023-12-08 13:44:51 +0100] [81138] [INFO] Worker exiting (pid: 81138)
+[2023-12-08 13:44:51 +0100] [81128] [INFO] Worker exiting (pid: 81128)
+[2023-12-08 13:44:51 +0100] [81139] [INFO] Worker exiting (pid: 81139)
+[2023-12-08 13:44:51 +0100] [81129] [INFO] Worker exiting (pid: 81129)
+[2023-12-08 13:44:51 +0100] [81108] [INFO] Shutting down: Master
+[2023-12-08 13:44:54 +0100] [81296] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:44:54 +0100] [81296] [INFO] Listening at: http://127.0.0.1:8000 (81296)
+[2023-12-08 13:44:54 +0100] [81296] [INFO] Using worker: sync
+[2023-12-08 13:44:54 +0100] [81304] [INFO] Booting worker with pid: 81304
+[2023-12-08 13:44:54 +0100] [81305] [INFO] Booting worker with pid: 81305
+[2023-12-08 13:44:54 +0100] [81306] [INFO] Booting worker with pid: 81306
+[2023-12-08 13:44:54 +0100] [81307] [INFO] Booting worker with pid: 81307
+[2023-12-08 13:44:54 +0100] [81308] [INFO] Booting worker with pid: 81308
+[2023-12-08 13:44:54 +0100] [81309] [INFO] Booting worker with pid: 81309
+[2023-12-08 13:44:54 +0100] [81310] [INFO] Booting worker with pid: 81310
+[2023-12-08 13:44:54 +0100] [81311] [INFO] Booting worker with pid: 81311
+[2023-12-08 13:44:54 +0100] [81312] [INFO] Booting worker with pid: 81312
+[2023-12-08 13:44:54 +0100] [81313] [INFO] Booting worker with pid: 81313
+[2023-12-08 13:44:54 +0100] [81314] [INFO] Booting worker with pid: 81314
+[2023-12-08 13:44:54 +0100] [81315] [INFO] Booting worker with pid: 81315
+[2023-12-08 13:44:54 +0100] [81316] [INFO] Booting worker with pid: 81316
+[2023-12-08 13:44:54 +0100] [81317] [INFO] Booting worker with pid: 81317
+[2023-12-08 13:44:54 +0100] [81325] [INFO] Booting worker with pid: 81325
+[2023-12-08 13:44:54 +0100] [81326] [INFO] Booting worker with pid: 81326
+[2023-12-08 13:44:55 +0100] [81327] [INFO] Booting worker with pid: 81327
+[2023-12-08 13:45:24 +0100] [81296] [INFO] Handling signal: term
+[2023-12-08 13:45:24 +0100] [81306] [INFO] Worker exiting (pid: 81306)
+[2023-12-08 13:45:24 +0100] [81308] [INFO] Worker exiting (pid: 81308)
+[2023-12-08 13:45:24 +0100] [81309] [INFO] Worker exiting (pid: 81309)
+[2023-12-08 13:45:24 +0100] [81314] [INFO] Worker exiting (pid: 81314)
+[2023-12-08 13:45:24 +0100] [81304] [INFO] Worker exiting (pid: 81304)
+[2023-12-08 13:45:24 +0100] [81305] [INFO] Worker exiting (pid: 81305)
+[2023-12-08 13:45:24 +0100] [81307] [INFO] Worker exiting (pid: 81307)
+[2023-12-08 13:45:24 +0100] [81312] [INFO] Worker exiting (pid: 81312)
+[2023-12-08 13:45:24 +0100] [81310] [INFO] Worker exiting (pid: 81310)
+[2023-12-08 13:45:24 +0100] [81311] [INFO] Worker exiting (pid: 81311)
+[2023-12-08 13:45:24 +0100] [81315] [INFO] Worker exiting (pid: 81315)
+[2023-12-08 13:45:24 +0100] [81325] [INFO] Worker exiting (pid: 81325)
+[2023-12-08 13:45:24 +0100] [81317] [INFO] Worker exiting (pid: 81317)
+[2023-12-08 13:45:24 +0100] [81313] [INFO] Worker exiting (pid: 81313)
+[2023-12-08 13:45:24 +0100] [81316] [INFO] Worker exiting (pid: 81316)
+[2023-12-08 13:45:24 +0100] [81326] [INFO] Worker exiting (pid: 81326)
+[2023-12-08 13:45:24 +0100] [81327] [INFO] Worker exiting (pid: 81327)
+[2023-12-08 13:45:24 +0100] [81296] [INFO] Shutting down: Master
+[2023-12-08 13:49:50 +0100] [81825] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:49:50 +0100] [81825] [INFO] Listening at: http://127.0.0.1:8000 (81825)
+[2023-12-08 13:49:50 +0100] [81825] [INFO] Using worker: sync
+[2023-12-08 13:49:50 +0100] [81856] [INFO] Booting worker with pid: 81856
+[2023-12-08 13:49:51 +0100] [81859] [INFO] Booting worker with pid: 81859
+[2023-12-08 13:49:51 +0100] [81860] [INFO] Booting worker with pid: 81860
+[2023-12-08 13:49:51 +0100] [81861] [INFO] Booting worker with pid: 81861
+[2023-12-08 13:49:51 +0100] [81862] [INFO] Booting worker with pid: 81862
+[2023-12-08 13:49:51 +0100] [81863] [INFO] Booting worker with pid: 81863
+[2023-12-08 13:49:51 +0100] [81864] [INFO] Booting worker with pid: 81864
+[2023-12-08 13:49:51 +0100] [81865] [INFO] Booting worker with pid: 81865
+[2023-12-08 13:49:51 +0100] [81866] [INFO] Booting worker with pid: 81866
+[2023-12-08 13:49:51 +0100] [81867] [INFO] Booting worker with pid: 81867
+[2023-12-08 13:49:51 +0100] [81868] [INFO] Booting worker with pid: 81868
+[2023-12-08 13:49:51 +0100] [81869] [INFO] Booting worker with pid: 81869
+[2023-12-08 13:49:51 +0100] [81870] [INFO] Booting worker with pid: 81870
+[2023-12-08 13:49:51 +0100] [81871] [INFO] Booting worker with pid: 81871
+[2023-12-08 13:49:51 +0100] [81873] [INFO] Booting worker with pid: 81873
+[2023-12-08 13:49:51 +0100] [81874] [INFO] Booting worker with pid: 81874
+[2023-12-08 13:49:51 +0100] [81875] [INFO] Booting worker with pid: 81875
+[2023-12-08 13:49:53 +0100] [81825] [INFO] Handling signal: term
+[2023-12-08 13:49:53 +0100] [81865] [INFO] Worker exiting (pid: 81865)
+[2023-12-08 13:49:53 +0100] [81856] [INFO] Worker exiting (pid: 81856)
+[2023-12-08 13:49:53 +0100] [81861] [INFO] Worker exiting (pid: 81861)
+[2023-12-08 13:49:53 +0100] [81863] [INFO] Worker exiting (pid: 81863)
+[2023-12-08 13:49:53 +0100] [81860] [INFO] Worker exiting (pid: 81860)
+[2023-12-08 13:49:53 +0100] [81859] [INFO] Worker exiting (pid: 81859)
+[2023-12-08 13:49:53 +0100] [81862] [INFO] Worker exiting (pid: 81862)
+[2023-12-08 13:49:53 +0100] [81864] [INFO] Worker exiting (pid: 81864)
+[2023-12-08 13:49:53 +0100] [81870] [INFO] Worker exiting (pid: 81870)
+[2023-12-08 13:49:53 +0100] [81868] [INFO] Worker exiting (pid: 81868)
+[2023-12-08 13:49:53 +0100] [81875] [INFO] Worker exiting (pid: 81875)
+[2023-12-08 13:49:53 +0100] [81867] [INFO] Worker exiting (pid: 81867)
+[2023-12-08 13:49:53 +0100] [81869] [INFO] Worker exiting (pid: 81869)
+[2023-12-08 13:49:53 +0100] [81866] [INFO] Worker exiting (pid: 81866)
+[2023-12-08 13:49:53 +0100] [81874] [INFO] Worker exiting (pid: 81874)
+[2023-12-08 13:49:53 +0100] [81871] [INFO] Worker exiting (pid: 81871)
+[2023-12-08 13:49:53 +0100] [81873] [INFO] Worker exiting (pid: 81873)
+[2023-12-08 13:49:53 +0100] [81825] [INFO] Shutting down: Master
+[2023-12-08 13:49:56 +0100] [81904] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:49:56 +0100] [81904] [INFO] Listening at: http://127.0.0.1:8000 (81904)
+[2023-12-08 13:49:56 +0100] [81904] [INFO] Using worker: sync
+[2023-12-08 13:49:56 +0100] [81912] [INFO] Booting worker with pid: 81912
+[2023-12-08 13:49:56 +0100] [81913] [INFO] Booting worker with pid: 81913
+[2023-12-08 13:49:56 +0100] [81914] [INFO] Booting worker with pid: 81914
+[2023-12-08 13:49:56 +0100] [81915] [INFO] Booting worker with pid: 81915
+[2023-12-08 13:49:56 +0100] [81916] [INFO] Booting worker with pid: 81916
+[2023-12-08 13:49:56 +0100] [81917] [INFO] Booting worker with pid: 81917
+[2023-12-08 13:49:56 +0100] [81918] [INFO] Booting worker with pid: 81918
+[2023-12-08 13:49:56 +0100] [81919] [INFO] Booting worker with pid: 81919
+[2023-12-08 13:49:56 +0100] [81920] [INFO] Booting worker with pid: 81920
+[2023-12-08 13:49:56 +0100] [81921] [INFO] Booting worker with pid: 81921
+[2023-12-08 13:49:56 +0100] [81922] [INFO] Booting worker with pid: 81922
+[2023-12-08 13:49:56 +0100] [81923] [INFO] Booting worker with pid: 81923
+[2023-12-08 13:49:56 +0100] [81924] [INFO] Booting worker with pid: 81924
+[2023-12-08 13:49:56 +0100] [81925] [INFO] Booting worker with pid: 81925
+[2023-12-08 13:49:56 +0100] [81926] [INFO] Booting worker with pid: 81926
+[2023-12-08 13:49:56 +0100] [81927] [INFO] Booting worker with pid: 81927
+[2023-12-08 13:49:56 +0100] [81928] [INFO] Booting worker with pid: 81928
+[2023-12-08 13:53:35 +0100] [81904] [INFO] Handling signal: term
+[2023-12-08 13:53:35 +0100] [81916] [INFO] Worker exiting (pid: 81916)
+[2023-12-08 13:53:35 +0100] [81913] [INFO] Worker exiting (pid: 81913)
+[2023-12-08 13:53:35 +0100] [81912] [INFO] Worker exiting (pid: 81912)
+[2023-12-08 13:53:35 +0100] [81914] [INFO] Worker exiting (pid: 81914)
+[2023-12-08 13:53:35 +0100] [81915] [INFO] Worker exiting (pid: 81915)
+[2023-12-08 13:53:35 +0100] [81917] [INFO] Worker exiting (pid: 81917)
+[2023-12-08 13:53:35 +0100] [81918] [INFO] Worker exiting (pid: 81918)
+[2023-12-08 13:53:35 +0100] [81920] [INFO] Worker exiting (pid: 81920)
+[2023-12-08 13:53:35 +0100] [81919] [INFO] Worker exiting (pid: 81919)
+[2023-12-08 13:53:35 +0100] [81924] [INFO] Worker exiting (pid: 81924)
+[2023-12-08 13:53:35 +0100] [81921] [INFO] Worker exiting (pid: 81921)
+[2023-12-08 13:53:35 +0100] [81922] [INFO] Worker exiting (pid: 81922)
+[2023-12-08 13:53:35 +0100] [81923] [INFO] Worker exiting (pid: 81923)
+[2023-12-08 13:53:35 +0100] [81925] [INFO] Worker exiting (pid: 81925)
+[2023-12-08 13:53:35 +0100] [81927] [INFO] Worker exiting (pid: 81927)
+[2023-12-08 13:53:35 +0100] [81928] [INFO] Worker exiting (pid: 81928)
+[2023-12-08 13:53:35 +0100] [81926] [INFO] Worker exiting (pid: 81926)
+[2023-12-08 13:53:35 +0100] [81904] [INFO] Shutting down: Master
+[2023-12-08 13:53:38 +0100] [82375] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:53:38 +0100] [82375] [INFO] Listening at: http://127.0.0.1:8000 (82375)
+[2023-12-08 13:53:38 +0100] [82375] [INFO] Using worker: sync
+[2023-12-08 13:53:38 +0100] [82383] [INFO] Booting worker with pid: 82383
+[2023-12-08 13:53:38 +0100] [82384] [INFO] Booting worker with pid: 82384
+[2023-12-08 13:53:38 +0100] [82385] [INFO] Booting worker with pid: 82385
+[2023-12-08 13:53:38 +0100] [82386] [INFO] Booting worker with pid: 82386
+[2023-12-08 13:53:38 +0100] [82387] [INFO] Booting worker with pid: 82387
+[2023-12-08 13:53:38 +0100] [82388] [INFO] Booting worker with pid: 82388
+[2023-12-08 13:53:38 +0100] [82389] [INFO] Booting worker with pid: 82389
+[2023-12-08 13:53:38 +0100] [82390] [INFO] Booting worker with pid: 82390
+[2023-12-08 13:53:38 +0100] [82391] [INFO] Booting worker with pid: 82391
+[2023-12-08 13:53:39 +0100] [82392] [INFO] Booting worker with pid: 82392
+[2023-12-08 13:53:39 +0100] [82393] [INFO] Booting worker with pid: 82393
+[2023-12-08 13:53:39 +0100] [82394] [INFO] Booting worker with pid: 82394
+[2023-12-08 13:53:39 +0100] [82395] [INFO] Booting worker with pid: 82395
+[2023-12-08 13:53:39 +0100] [82396] [INFO] Booting worker with pid: 82396
+[2023-12-08 13:53:39 +0100] [82397] [INFO] Booting worker with pid: 82397
+[2023-12-08 13:53:39 +0100] [82398] [INFO] Booting worker with pid: 82398
+[2023-12-08 13:53:39 +0100] [82399] [INFO] Booting worker with pid: 82399
+[2023-12-08 13:53:51 +0100] [82375] [INFO] Handling signal: term
+[2023-12-08 13:53:51 +0100] [82386] [INFO] Worker exiting (pid: 82386)
+[2023-12-08 13:53:51 +0100] [82389] [INFO] Worker exiting (pid: 82389)
+[2023-12-08 13:53:51 +0100] [82388] [INFO] Worker exiting (pid: 82388)
+[2023-12-08 13:53:51 +0100] [82385] [INFO] Worker exiting (pid: 82385)
+[2023-12-08 13:53:51 +0100] [82384] [INFO] Worker exiting (pid: 82384)
+[2023-12-08 13:53:51 +0100] [82383] [INFO] Worker exiting (pid: 82383)
+[2023-12-08 13:53:51 +0100] [82387] [INFO] Worker exiting (pid: 82387)
+[2023-12-08 13:53:51 +0100] [82392] [INFO] Worker exiting (pid: 82392)
+[2023-12-08 13:53:51 +0100] [82390] [INFO] Worker exiting (pid: 82390)
+[2023-12-08 13:53:51 +0100] [82391] [INFO] Worker exiting (pid: 82391)
+[2023-12-08 13:53:51 +0100] [82393] [INFO] Worker exiting (pid: 82393)
+[2023-12-08 13:53:51 +0100] [82395] [INFO] Worker exiting (pid: 82395)
+[2023-12-08 13:53:51 +0100] [82394] [INFO] Worker exiting (pid: 82394)
+[2023-12-08 13:53:51 +0100] [82399] [INFO] Worker exiting (pid: 82399)
+[2023-12-08 13:53:51 +0100] [82398] [INFO] Worker exiting (pid: 82398)
+[2023-12-08 13:53:51 +0100] [82397] [INFO] Worker exiting (pid: 82397)
+[2023-12-08 13:53:51 +0100] [82396] [INFO] Worker exiting (pid: 82396)
+[2023-12-08 13:53:51 +0100] [82375] [INFO] Shutting down: Master
+[2023-12-08 13:53:53 +0100] [82465] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:53:53 +0100] [82465] [INFO] Listening at: http://127.0.0.1:8008 (82465)
+[2023-12-08 13:53:53 +0100] [82465] [INFO] Using worker: sync
+[2023-12-08 13:53:53 +0100] [82496] [INFO] Booting worker with pid: 82496
+[2023-12-08 13:53:53 +0100] [82497] [INFO] Booting worker with pid: 82497
+[2023-12-08 13:53:53 +0100] [82498] [INFO] Booting worker with pid: 82498
+[2023-12-08 13:53:53 +0100] [82499] [INFO] Booting worker with pid: 82499
+[2023-12-08 13:53:53 +0100] [82500] [INFO] Booting worker with pid: 82500
+[2023-12-08 13:53:53 +0100] [82501] [INFO] Booting worker with pid: 82501
+[2023-12-08 13:53:53 +0100] [82502] [INFO] Booting worker with pid: 82502
+[2023-12-08 13:53:53 +0100] [82503] [INFO] Booting worker with pid: 82503
+[2023-12-08 13:53:53 +0100] [82504] [INFO] Booting worker with pid: 82504
+[2023-12-08 13:53:53 +0100] [82505] [INFO] Booting worker with pid: 82505
+[2023-12-08 13:53:53 +0100] [82506] [INFO] Booting worker with pid: 82506
+[2023-12-08 13:53:53 +0100] [82507] [INFO] Booting worker with pid: 82507
+[2023-12-08 13:53:54 +0100] [82508] [INFO] Booting worker with pid: 82508
+[2023-12-08 13:53:54 +0100] [82509] [INFO] Booting worker with pid: 82509
+[2023-12-08 13:53:54 +0100] [82510] [INFO] Booting worker with pid: 82510
+[2023-12-08 13:53:54 +0100] [82518] [INFO] Booting worker with pid: 82518
+[2023-12-08 13:53:54 +0100] [82519] [INFO] Booting worker with pid: 82519
+[2023-12-08 13:54:25 +0100] [82465] [INFO] Handling signal: term
+[2023-12-08 13:54:25 +0100] [82498] [INFO] Worker exiting (pid: 82498)
+[2023-12-08 13:54:25 +0100] [82496] [INFO] Worker exiting (pid: 82496)
+[2023-12-08 13:54:25 +0100] [82497] [INFO] Worker exiting (pid: 82497)
+[2023-12-08 13:54:25 +0100] [82502] [INFO] Worker exiting (pid: 82502)
+[2023-12-08 13:54:25 +0100] [82501] [INFO] Worker exiting (pid: 82501)
+[2023-12-08 13:54:25 +0100] [82504] [INFO] Worker exiting (pid: 82504)
+[2023-12-08 13:54:25 +0100] [82519] [INFO] Worker exiting (pid: 82519)
+[2023-12-08 13:54:25 +0100] [82499] [INFO] Worker exiting (pid: 82499)
+[2023-12-08 13:54:25 +0100] [82506] [INFO] Worker exiting (pid: 82506)
+[2023-12-08 13:54:25 +0100] [82503] [INFO] Worker exiting (pid: 82503)
+[2023-12-08 13:54:25 +0100] [82505] [INFO] Worker exiting (pid: 82505)
+[2023-12-08 13:54:25 +0100] [82507] [INFO] Worker exiting (pid: 82507)
+[2023-12-08 13:54:25 +0100] [82500] [INFO] Worker exiting (pid: 82500)
+[2023-12-08 13:54:25 +0100] [82508] [INFO] Worker exiting (pid: 82508)
+[2023-12-08 13:54:25 +0100] [82509] [INFO] Worker exiting (pid: 82509)
+[2023-12-08 13:54:25 +0100] [82518] [INFO] Worker exiting (pid: 82518)
+[2023-12-08 13:54:25 +0100] [82510] [INFO] Worker exiting (pid: 82510)
+[2023-12-08 13:54:26 +0100] [82465] [INFO] Shutting down: Master
+[2023-12-08 13:55:14 +0100] [82742] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 13:55:14 +0100] [82742] [INFO] Listening at: http://127.0.0.1:8008 (82742)
+[2023-12-08 13:55:14 +0100] [82742] [INFO] Using worker: sync
+[2023-12-08 13:55:14 +0100] [82773] [INFO] Booting worker with pid: 82773
+[2023-12-08 13:55:14 +0100] [82774] [INFO] Booting worker with pid: 82774
+[2023-12-08 13:55:14 +0100] [82775] [INFO] Booting worker with pid: 82775
+[2023-12-08 13:55:14 +0100] [82776] [INFO] Booting worker with pid: 82776
+[2023-12-08 13:55:14 +0100] [82777] [INFO] Booting worker with pid: 82777
+[2023-12-08 13:55:14 +0100] [82778] [INFO] Booting worker with pid: 82778
+[2023-12-08 13:55:14 +0100] [82779] [INFO] Booting worker with pid: 82779
+[2023-12-08 13:55:14 +0100] [82780] [INFO] Booting worker with pid: 82780
+[2023-12-08 13:55:14 +0100] [82781] [INFO] Booting worker with pid: 82781
+[2023-12-08 13:55:14 +0100] [82782] [INFO] Booting worker with pid: 82782
+[2023-12-08 13:55:14 +0100] [82783] [INFO] Booting worker with pid: 82783
+[2023-12-08 13:55:14 +0100] [82784] [INFO] Booting worker with pid: 82784
+[2023-12-08 13:55:14 +0100] [82785] [INFO] Booting worker with pid: 82785
+[2023-12-08 13:55:14 +0100] [82786] [INFO] Booting worker with pid: 82786
+[2023-12-08 13:55:14 +0100] [82794] [INFO] Booting worker with pid: 82794
+[2023-12-08 13:55:15 +0100] [82795] [INFO] Booting worker with pid: 82795
+[2023-12-08 13:55:15 +0100] [82796] [INFO] Booting worker with pid: 82796
+[2023-12-08 19:45:25 +0100] [112441] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 19:45:25 +0100] [112441] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:25 +0100] [112441] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:26 +0100] [112441] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:26 +0100] [112441] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:27 +0100] [112441] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:27 +0100] [112441] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:28 +0100] [112441] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:28 +0100] [112441] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:29 +0100] [112441] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:29 +0100] [112441] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:30 +0100] [112441] [ERROR] Can't connect to ('127.0.0.1', 8008)
+[2023-12-08 19:45:32 +0100] [112475] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 19:45:32 +0100] [112475] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:32 +0100] [112475] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:33 +0100] [112475] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:33 +0100] [112475] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:34 +0100] [112475] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:34 +0100] [112475] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:35 +0100] [112475] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:35 +0100] [112475] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:36 +0100] [112475] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:36 +0100] [112475] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:37 +0100] [112475] [ERROR] Can't connect to ('127.0.0.1', 8008)
+[2023-12-08 19:45:38 +0100] [112476] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 19:45:38 +0100] [112476] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:38 +0100] [112476] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:39 +0100] [112476] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:39 +0100] [112476] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:40 +0100] [112476] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:40 +0100] [112476] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:41 +0100] [112476] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:41 +0100] [112476] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:42 +0100] [112476] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:42 +0100] [112476] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:43 +0100] [112476] [ERROR] Can't connect to ('127.0.0.1', 8008)
+[2023-12-08 19:45:44 +0100] [112483] [INFO] Starting gunicorn 21.2.0
+[2023-12-08 19:45:44 +0100] [112483] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:44 +0100] [112483] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:45 +0100] [112483] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:45 +0100] [112483] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:46 +0100] [112483] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:46 +0100] [112483] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:47 +0100] [112483] [ERROR] Connection in use: ('127.0.0.1', 8008)
+[2023-12-08 19:45:47 +0100] [112483] [ERROR] Retrying in 1 second.
+[2023-12-08 19:45:48 +0100] [112483] [INFO] Listening at: http://127.0.0.1:8008 (112483)
+[2023-12-08 19:45:48 +0100] [112483] [INFO] Using worker: sync
+[2023-12-08 19:45:48 +0100] [112504] [INFO] Booting worker with pid: 112504
+[2023-12-08 19:45:48 +0100] [112505] [INFO] Booting worker with pid: 112505
+[2023-12-08 19:45:48 +0100] [112506] [INFO] Booting worker with pid: 112506
+[2023-12-08 19:45:49 +0100] [112507] [INFO] Booting worker with pid: 112507
+[2023-12-08 19:45:49 +0100] [112508] [INFO] Booting worker with pid: 112508
+[2023-12-08 19:45:49 +0100] [112509] [INFO] Booting worker with pid: 112509
+[2023-12-08 19:45:49 +0100] [112510] [INFO] Booting worker with pid: 112510
+[2023-12-08 19:45:49 +0100] [112511] [INFO] Booting worker with pid: 112511
+[2023-12-08 19:45:49 +0100] [112512] [INFO] Booting worker with pid: 112512
+[2023-12-08 19:45:49 +0100] [112513] [INFO] Booting worker with pid: 112513
+[2023-12-08 19:45:49 +0100] [112514] [INFO] Booting worker with pid: 112514
+[2023-12-08 19:45:49 +0100] [112515] [INFO] Booting worker with pid: 112515
+[2023-12-08 19:45:49 +0100] [112516] [INFO] Booting worker with pid: 112516
+[2023-12-08 19:45:49 +0100] [112517] [INFO] Booting worker with pid: 112517
+[2023-12-08 19:45:49 +0100] [112518] [INFO] Booting worker with pid: 112518
+[2023-12-08 19:45:49 +0100] [112519] [INFO] Booting worker with pid: 112519
+[2023-12-08 19:45:49 +0100] [112520] [INFO] Booting worker with pid: 112520
+[2023-12-09 08:47:45 +0100] [2117] [INFO] Starting gunicorn 21.2.0
+[2023-12-09 08:47:45 +0100] [2117] [INFO] Listening at: http://127.0.0.1:8000 (2117)
+[2023-12-09 08:47:45 +0100] [2117] [INFO] Using worker: sync
+[2023-12-09 08:47:45 +0100] [2125] [INFO] Booting worker with pid: 2125
+[2023-12-09 08:47:45 +0100] [2126] [INFO] Booting worker with pid: 2126
+[2023-12-09 08:47:45 +0100] [2127] [INFO] Booting worker with pid: 2127
+[2023-12-09 08:47:45 +0100] [2128] [INFO] Booting worker with pid: 2128
+[2023-12-09 08:47:45 +0100] [2129] [INFO] Booting worker with pid: 2129
+[2023-12-09 08:48:22 +0100] [2117] [INFO] Handling signal: term
+[2023-12-09 08:48:22 +0100] [2128] [INFO] Worker exiting (pid: 2128)
+[2023-12-09 08:48:22 +0100] [2127] [INFO] Worker exiting (pid: 2127)
+[2023-12-09 08:48:22 +0100] [2126] [INFO] Worker exiting (pid: 2126)
+[2023-12-09 08:48:22 +0100] [2125] [INFO] Worker exiting (pid: 2125)
+[2023-12-09 08:48:22 +0100] [2129] [INFO] Worker exiting (pid: 2129)
+[2023-12-09 08:48:22 +0100] [2117] [INFO] Shutting down: Master

@@ -1,0 +1,8 @@
+2023-12-08 12:08:30,440 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS '_214e78c5cbbdea13'@'localhost'
+2023-12-08 12:08:30,441 WARNING database DDL Query made to DB:
+DROP DATABASE IF EXISTS `_214e78c5cbbdea13`
+2023-12-08 12:08:30,444 WARNING database DDL Query made to DB:
+CREATE USER '_214e78c5cbbdea13'@'localhost' IDENTIFIED BY 'HtEiaSlq1Xl5lZiq'
+2023-12-08 12:08:30,445 WARNING database DDL Query made to DB:
+CREATE DATABASE `_214e78c5cbbdea13`

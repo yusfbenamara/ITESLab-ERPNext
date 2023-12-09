@@ -1,0 +1,3 @@
+[build]
+  publish = ".histoire/dist"
+  command = "yarn story:build"
